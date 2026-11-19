@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>__TITLE__</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #fafafa; overflow: hidden; height: 100vh; display: flex; flex-direction: column; }
+
+    /* Toolbar */
+    #toolbar { height: 48px; background: #fff; border-bottom: 1px solid #e5e7eb; display: flex; align-items: center; padding: 0 16px; gap: 8px; flex-shrink: 0; z-index: 10; }
+    #toolbar .left { display: flex; align-items: center; gap: 6px; }
+    #toolbar .center { flex: 1; display: flex; align-items: center; justify-content: center; gap: 8px; }
+    #toolbar .right { display: flex; align-items: center; gap: 6px; }
+    .tb-btn { background: #f3f4f6; border: 1px solid #d1d5db; border-radius: 6px; padding: 4px 10px; font-size: 13px; cursor: pointer; color: #374151; line-height: 1.4; }
+    .tb-btn:hover { background: #e5e7eb; }
+    #zoom-level { font-size: 12px; color: #6b7280; min-width: 44px; text-align: center; }
+    .title { font-weight: 600; font-size: 15px; color: #111827; }
+    .badge { font-size: 11px; background: #f3f4f6; color: #6b7280; border-radius: 9999px; padding: 2px 10px; border: 1px solid #e5e7eb; }
+    .dl-btn { background: #2563eb; color: #fff; border: none; border-radius: 6px; padding: 5px 12px; font-size: 13px; cursor: pointer; }
+    .dl-btn:hover { background: #1d4ed8; }
+
+    /* Canvas */
+    #canvas-wrap { flex: 1; overflow: hidden; position: relative; cursor: grab; }
+    #canvas-wrap.panning { cursor: grabbing; }
+    #canvas { width: 100%; height: 100%; }
+
+    /* Tooltip */
+    #tooltip { position: fixed; background: #1f2937; color: #fff; font-size: 12px; padding: 6px 10px; border-radius: 6px; pointer-events: none; opacity: 0; transition: opacity 0.15s; max-width: 260px; z-index: 20; line-height: 1.4; }
+    #tooltip.visible { opacity: 1; }
+
+    /* Node hover */
+    .node-shape { transition: filter 0.15s; }
+    .node-group:hover .node-shape { filter: brightness(0.95); }
+    .node-group.selected .node-shape { stroke: #2563eb !important; stroke-width: 3 !important; }
+    .edge-path.selected { stroke: #2563eb !important; stroke-width: 3 !important; }
+    .edge-label-bg.selected { stroke: #2563eb; }
+  </style>
+</head>
+<body>
+
+<div id="toolbar">
+  <div class="left">
+    <button class="tb-btn" onclick="zoomToFit()" title="Zoom to Fit">Fit</button>
+    <button class="tb-btn" onclick="zoomBy(-0.15)" title="Zoom Out">&minus;</button>
+    <span id="zoom-level">100%</span>
+    <button class="tb-btn" onclick="zoomBy(0.15)" title="Zoom In">+</button>
+  </div>
+  <div class="center">
+    <span class="title" id="diagram-title"></span>
+    <span class="badge" id="diagram-type"></span>
+  </div>
+  <div class="right">
+    <button class="dl-btn" onclick="downloadJSON()">Download JSON</button>
+  </div>
+</div>
+
+<div id="canvas-wrap">
+  <svg id="canvas" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" fill="#6b7280">
+        <polygon points="0 0, 10 3.5, 0 7" />
+      </marker>
+      <marker id="arrowhead-selected" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto" fill="#2563eb">
+        <polygon points="0 0, 10 3.5, 0 7" />
+      </marker>
+    </defs>
+    <g id="diagram-root"></g>
+  </svg>
+</div>
+
+<div id="tooltip"></div>
+
+<script>
+// ============================================================
+// DIAGRAM DATA — Replace this object with your diagram content
+// ============================================================
+const DIAGRAM = {
+  meta: {
+    title: "Template Example",
+    description: "A minimal example diagram",
+    type: "flowchart",
+    tags: ["template"],
+    created: "2026-04-05",
+    updated: "2026-04-05"
+  },
+  nodes: [
+    { id: "start", type: "circle", label: "Start", position: { x: 200, y: 40 }, size: { width: 90, height: 40 }, style: { fill: "#40916c", stroke: "#2d6a4f", strokeWidth: 2, color: "#ffffff", fontSize: 14 } },
+    { id: "step1", type: "box", label: "Process Step", sublabel: "Does something useful", position: { x: 145, y: 130 }, size: { width: 200, height: 50 }, style: { fill: "#ffffff", stroke: "#2d6a4f", strokeWidth: 2, color: "#1f2937", fontSize: 14, borderRadius: 8 } },
+    { id: "end", type: "circle", label: "End", position: { x: 200, y: 230 }, size: { width: 90, height: 40 }, style: { fill: "#40916c", stroke: "#2d6a4f", strokeWidth: 2, color: "#ffffff", fontSize: 14 } }
+  ],
+  edges: [
+    { id: "e_start_step1", source: "start", target: "step1", sourceHandle: "bottom", targetHandle: "top", style: { stroke: "#6b7280", strokeWidth: 2 } },
+    { id: "e_step1_end", source: "step1", target: "end", sourceHandle: "bottom", targetHandle: "top", style: { stroke: "#6b7280", strokeWidth: 2 } }
+  ]
+};
+
+// ============================================================
+// RENDERER
+// ============================================================
+const SVG_NS = "http://www.w3.org/2000/svg";
+const root = document.getElementById("diagram-root");
+const canvas = document.getElementById("canvas");
+const wrap = document.getElementById("canvas-wrap");
+const tooltip = document.getElementById("tooltip");
+
+let scale = 1;
+let panX = 0, panY = 0;
+let isPanning = false, panStartX = 0, panStartY = 0, panStartVX = 0, panStartVY = 0;
+let selectedNodeId = null;
+const nodeMap = {};
+
+// --- Init ---
+function init() {
+  document.getElementById("diagram-title").textContent = DIAGRAM.meta.title || "Untitled";
+  document.getElementById("diagram-type").textContent = DIAGRAM.meta.type || "flowchart";
+  renderDiagram();
+  setupInteractivity();
+  requestAnimationFrame(zoomToFit);
+}
+
+// --- Render ---
+function renderDiagram() {
+  root.innerHTML = "";
+  // Build node lookup
+  DIAGRAM.nodes.forEach(n => { nodeMap[n.id] = n; });
+  // Render groups first (behind everything)
+  DIAGRAM.nodes.filter(n => n.type === "group").forEach(n => renderNode(n));
+  // Render edges
+  DIAGRAM.edges.forEach(e => renderEdge(e));
+  // Render non-group nodes
+  DIAGRAM.nodes.filter(n => n.type !== "group").forEach(n => renderNode(n));
+}
+
+function renderNode(node) {
+  const g = document.createElementNS(SVG_NS, "g");
+  g.classList.add("node-group");
+  g.dataset.id = node.id;
+  const { x, y } = node.position;
+  const { width: w, height: h } = node.size;
+  const s = node.style || {};
+  let shape;
+
+  switch (node.type) {
+    case "box": {
+      shape = document.createElementNS(SVG_NS, "rect");
+      shape.setAttribute("x", x);
+      shape.setAttribute("y", y);
+      shape.setAttribute("width", w);
+      shape.setAttribute("height", h);
+      shape.setAttribute("rx", s.borderRadius ?? 8);
+      shape.setAttribute("ry", s.borderRadius ?? 8);
+      break;
+    }
+    case "circle": {
+      shape = document.createElementNS(SVG_NS, "ellipse");
+      shape.setAttribute("cx", x + w / 2);
+      shape.setAttribute("cy", y + h / 2);
+      shape.setAttribute("rx", w / 2);
+      shape.setAttribute("ry", h / 2);
+      break;
+    }
+    case "diamond": {
+      const cx = x + w / 2, cy = y + h / 2;
+      shape = document.createElementNS(SVG_NS, "polygon");
+      shape.setAttribute("points", `${cx},${y} ${x + w},${cy} ${cx},${y + h} ${x},${cy}`);
+      break;
+    }
+    case "note": {
+      const fold = 12;
+      shape = document.createElementNS(SVG_NS, "path");
+      shape.setAttribute("d", `M${x},${y} L${x + w - fold},${y} L${x + w},${y + fold} L${x + w},${y + h} L${x},${y + h} Z`);
+      // Fold line
+      const foldLine = document.createElementNS(SVG_NS, "path");
+      foldLine.setAttribute("d", `M${x + w - fold},${y} L${x + w - fold},${y + fold} L${x + w},${y + fold}`);
+      foldLine.setAttribute("fill", "none");
+      foldLine.setAttribute("stroke", s.stroke || "#6b7280");
+      foldLine.setAttribute("stroke-width", s.strokeWidth ?? 1.5);
+      g.appendChild(foldLine);
+      break;
+    }
+    case "group": {
+      shape = document.createElementNS(SVG_NS, "rect");
+      shape.setAttribute("x", x);
+      shape.setAttribute("y", y);
+      shape.setAttribute("width", w);
+      shape.setAttribute("height", h);
+      shape.setAttribute("rx", s.borderRadius ?? 4);
+      shape.setAttribute("ry", s.borderRadius ?? 4);
+      shape.setAttribute("stroke-dasharray", "6,3");
+      break;
+    }
+  }
+
+  if (shape) {
+    shape.classList.add("node-shape");
+    shape.setAttribute("fill", s.fill || "#ffffff");
+    shape.setAttribute("stroke", s.stroke || "#d1d5db");
+    shape.setAttribute("stroke-width", s.strokeWidth ?? 2);
+    if (s.opacity != null) shape.setAttribute("opacity", s.opacity);
+    g.insertBefore(shape, g.firstChild);
+  }
+
+  // Label
+  const text = document.createElementNS(SVG_NS, "text");
+  const isGroup = node.type === "group";
+  text.setAttribute("x", isGroup ? x + 10 : x + w / 2);
+  text.setAttribute("y", isGroup ? y + 20 : y + h / 2);
+  text.setAttribute("text-anchor", isGroup ? "start" : "middle");
+  text.setAttribute("dominant-baseline", isGroup ? "auto" : "central");
+  text.setAttribute("fill", s.color || "#1f2937");
+  text.setAttribute("font-size", s.fontSize || 14);
+  if (s.fontWeight) text.setAttribute("font-weight", s.fontWeight);
+  text.setAttribute("font-family", "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif");
+  text.style.pointerEvents = "none";
+  text.style.userSelect = "none";
+  text.textContent = node.label;
+  g.appendChild(text);
+
+  root.appendChild(g);
+}
+
+function getHandlePoint(node, handle) {
+  const { x, y } = node.position;
+  const { width: w, height: h } = node.size;
+  switch (handle) {
+    case "top":    return { x: x + w / 2, y: y };
+    case "bottom": return { x: x + w / 2, y: y + h };
+    case "left":   return { x: x,         y: y + h / 2 };
+    case "right":  return { x: x + w,     y: y + h / 2 };
+    default:       return { x: x + w / 2, y: y + h };
+  }
+}
+
+function renderEdge(edge) {
+  const src = nodeMap[edge.source];
+  const tgt = nodeMap[edge.target];
+  if (!src || !tgt) return;
+
+  const sHandle = edge.sourceHandle || "bottom";
+  const tHandle = edge.targetHandle || "top";
+  const sp = getHandlePoint(src, sHandle);
+  const tp = getHandlePoint(tgt, tHandle);
+
+  // Control point offsets
+  const offset = 50;
+  const cpo = { top: { dx: 0, dy: -offset }, bottom: { dx: 0, dy: offset }, left: { dx: -offset, dy: 0 }, right: { dx: offset, dy: 0 } };
+  const cp1 = { x: sp.x + cpo[sHandle].dx, y: sp.y + cpo[sHandle].dy };
+  const cp2 = { x: tp.x + cpo[tHandle].dx, y: tp.y + cpo[tHandle].dy };
+
+  const s = edge.style || {};
+  const g = document.createElementNS(SVG_NS, "g");
+  g.classList.add("edge-group");
+  g.dataset.id = edge.id;
+  g.dataset.source = edge.source;
+  g.dataset.target = edge.target;
+
+  const path = document.createElementNS(SVG_NS, "path");
+  path.setAttribute("d", `M${sp.x},${sp.y} C${cp1.x},${cp1.y} ${cp2.x},${cp2.y} ${tp.x},${tp.y}`);
+  path.setAttribute("fill", "none");
+  path.setAttribute("stroke", s.stroke || "#6b7280");
+  path.setAttribute("stroke-width", s.strokeWidth ?? 2);
+  if (s.strokeDasharray) path.setAttribute("stroke-dasharray", s.strokeDasharray);
+
+  // Arrowhead — use a custom-colored marker via inline marker-end
+  path.setAttribute("marker-end", "url(#arrowhead)");
+  path.classList.add("edge-path");
+  g.appendChild(path);
+
+  // Edge label
+  if (edge.label) {
+    // Midpoint of cubic bezier at t=0.5
+    const mx = 0.125 * sp.x + 0.375 * cp1.x + 0.375 * cp2.x + 0.125 * tp.x;
+    const my = 0.125 * sp.y + 0.375 * cp1.y + 0.375 * cp2.y + 0.125 * tp.y;
+
+    const labelText = document.createElementNS(SVG_NS, "text");
+    labelText.setAttribute("x", mx);
+    labelText.setAttribute("y", my);
+    labelText.setAttribute("text-anchor", "middle");
+    labelText.setAttribute("dominant-baseline", "central");
+    labelText.setAttribute("fill", "#374151");
+    labelText.setAttribute("font-size", 12);
+    labelText.setAttribute("font-family", "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif");
+    labelText.textContent = edge.label;
+
+    // Background rect (rendered after measuring)
+    const bg = document.createElementNS(SVG_NS, "rect");
+    bg.classList.add("edge-label-bg");
+    g.appendChild(bg);
+    g.appendChild(labelText);
+
+    // Measure after append
+    requestAnimationFrame(() => {
+      const bbox = labelText.getBBox();
+      const px = 6, py = 2;
+      bg.setAttribute("x", bbox.x - px);
+      bg.setAttribute("y", bbox.y - py);
+      bg.setAttribute("width", bbox.width + px * 2);
+      bg.setAttribute("height", bbox.height + py * 2);
+      bg.setAttribute("rx", 4);
+      bg.setAttribute("fill", "#ffffff");
+      bg.setAttribute("stroke", "#e5e7eb");
+      bg.setAttribute("stroke-width", 1);
+    });
+  }
+
+  root.appendChild(g);
+}
+
+// ============================================================
+// INTERACTIVITY
+// ============================================================
+function setupInteractivity() {
+  // Zoom with mouse wheel
+  wrap.addEventListener("wheel", (e) => {
+    e.preventDefault();
+    const delta = e.deltaY > 0 ? -0.08 : 0.08;
+    zoomBy(delta, e.clientX, e.clientY);
+  }, { passive: false });
+
+  // Pan
+  wrap.addEventListener("mousedown", (e) => {
+    if (e.target === canvas || e.target === wrap || e.target.id === "diagram-root") {
+      isPanning = true;
+      wrap.classList.add("panning");
+      panStartX = e.clientX;
+      panStartY = e.clientY;
+      panStartVX = panX;
+      panStartVY = panY;
+    }
+  });
+  window.addEventListener("mousemove", (e) => {
+    if (!isPanning) return;
+    const dx = (e.clientX - panStartX) / scale;
+    const dy = (e.clientY - panStartY) / scale;
+    panX = panStartVX - dx;
+    panY = panStartVY - dy;
+    updateViewBox();
+  });
+  window.addEventListener("mouseup", () => {
+    isPanning = false;
+    wrap.classList.remove("panning");
+  });
+
+  // Tooltip
+  document.querySelectorAll(".node-group").forEach(g => {
+    g.addEventListener("mouseenter", (e) => {
+      const id = g.dataset.id;
+      const node = nodeMap[id];
+      if (node && node.sublabel) {
+        tooltip.textContent = node.sublabel;
+        tooltip.classList.add("visible");
+      }
+    });
+    g.addEventListener("mousemove", (e) => {
+      tooltip.style.left = (e.clientX + 12) + "px";
+      tooltip.style.top = (e.clientY + 12) + "px";
+    });
+    g.addEventListener("mouseleave", () => {
+      tooltip.classList.remove("visible");
+    });
+  });
+
+  // Click selection
+  document.querySelectorAll(".node-group").forEach(g => {
+    g.addEventListener("click", (e) => {
+      e.stopPropagation();
+      selectNode(g.dataset.id);
+    });
+  });
+  wrap.addEventListener("click", (e) => {
+    if (e.target === canvas || e.target === wrap || e.target.id === "diagram-root") {
+      selectNode(null);
+    }
+  });
+}
+
+function selectNode(nodeId) {
+  // Clear previous selection
+  document.querySelectorAll(".node-group.selected").forEach(g => g.classList.remove("selected"));
+  document.querySelectorAll(".edge-path.selected").forEach(p => p.classList.remove("selected"));
+  document.querySelectorAll(".edge-label-bg.selected").forEach(b => b.classList.remove("selected"));
+
+  selectedNodeId = nodeId;
+  if (!nodeId) return;
+
+  // Highlight node
+  const ng = document.querySelector(`.node-group[data-id="${nodeId}"]`);
+  if (ng) ng.classList.add("selected");
+
+  // Highlight connected edges
+  document.querySelectorAll(".edge-group").forEach(eg => {
+    if (eg.dataset.source === nodeId || eg.dataset.target === nodeId) {
+      const path = eg.querySelector(".edge-path");
+      if (path) {
+        path.classList.add("selected");
+        path.setAttribute("marker-end", "url(#arrowhead-selected)");
+      }
+      const bg = eg.querySelector(".edge-label-bg");
+      if (bg) bg.classList.add("selected");
+    } else {
+      const path = eg.querySelector(".edge-path");
+      if (path) path.setAttribute("marker-end", "url(#arrowhead)");
+    }
+  });
+}
+
+// --- Zoom ---
+function zoomBy(delta, cx, cy) {
+  const prevScale = scale;
+  scale = Math.min(5, Math.max(0.2, scale + delta));
+
+  // Zoom toward cursor
+  if (cx != null && cy != null) {
+    const rect = wrap.getBoundingClientRect();
+    const mx = (cx - rect.left) / rect.width;
+    const my = (cy - rect.top) / rect.height;
+    const vw = wrap.clientWidth / prevScale;
+    const vh = wrap.clientHeight / prevScale;
+    const nvw = wrap.clientWidth / scale;
+    const nvh = wrap.clientHeight / scale;
+    panX += (vw - nvw) * mx;
+    panY += (vh - nvh) * my;
+  }
+
+  updateViewBox();
+  document.getElementById("zoom-level").textContent = Math.round(scale * 100) + "%";
+}
+
+function updateViewBox() {
+  const vw = wrap.clientWidth / scale;
+  const vh = wrap.clientHeight / scale;
+  canvas.setAttribute("viewBox", `${panX} ${panY} ${vw} ${vh}`);
+}
+
+function zoomToFit() {
+  if (DIAGRAM.nodes.length === 0) return;
+  let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+  DIAGRAM.nodes.forEach(n => {
+    minX = Math.min(minX, n.position.x);
+    minY = Math.min(minY, n.position.y);
+    maxX = Math.max(maxX, n.position.x + n.size.width);
+    maxY = Math.max(maxY, n.position.y + n.size.height);
+  });
+  const pad = 60;
+  minX -= pad; minY -= pad; maxX += pad; maxY += pad;
+  const dw = maxX - minX;
+  const dh = maxY - minY;
+  const ww = wrap.clientWidth;
+  const wh = wrap.clientHeight;
+  scale = Math.min(ww / dw, wh / dh, 3);
+  panX = minX;
+  panY = minY;
+  updateViewBox();
+  document.getElementById("zoom-level").textContent = Math.round(scale * 100) + "%";
+}
+
+// --- Download ---
+function downloadJSON() {
+  const json = JSON.stringify(DIAGRAM, null, 2);
+  const blob = new Blob([json], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = (DIAGRAM.meta.title || "diagram").toLowerCase().replace(/[^a-z0-9]+/g, "-") + ".json";
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+// --- Start ---
+init();
+</script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 {
   "name": "workflow-automation",
-  "description": "Ten skills for workflow automation: discovery interviews, workflow maps, process log analysis, automation candidates, business cases, specifications, AI build plans, evaluation sets, rollout and impact measurement.",
-  "version": "2.0.0",
+  "description": "Seventeen skills for workflow automation: discovery interviews, thematic analysis, workflow maps, process log analysis, automation candidates, business cases, specifications, an AI build review loop, evaluation sets, rollout and impact measurement.",
+  "version": "3.0.0",
   "author": {
     "name": "Jesse van de Zand"
   },

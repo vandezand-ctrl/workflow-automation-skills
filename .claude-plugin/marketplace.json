@@ -7,7 +7,7 @@
     {
       "name": "workflow-automation",
       "source": "./",
-      "description": "Ten skills covering the full workflow automation cycle, with Python scripts for process log analysis and evaluations."
+      "description": "Seventeen skills covering the full workflow automation cycle, including an AI build review loop, with Python scripts for process log analysis and evaluations."
     }
   ]
 }
