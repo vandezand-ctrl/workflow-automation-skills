@@ -1,0 +1,7 @@
+{
+  "name": "workflow-automation",
+  "description": "Map a workflow as it is done today, find the steps worth automating, and design each automation with an approval step, controls and a measured result.",
+  "version": "1.0.0",
+  "author": { "name": "Jesse van de Zand" },
+  "license": "MIT"
+}

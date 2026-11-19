@@ -1,0 +1,11 @@
+{
+  "name": "vandezand-ctrl",
+  "owner": { "name": "Jesse van de Zand" },
+  "plugins": [
+    {
+      "name": "workflow-automation",
+      "source": "./",
+      "description": "Map a workflow, find automation candidates, design each automation with approvals and controls."
+    }
+  ]
+}
