@@ -1,0 +1,1768 @@
+case_id,activity,timestamp,resource
+INV-0261,Invoice received,2026-09-01 08:39,Supplier
+INV-0083,Invoice received,2026-09-01 09:55,Supplier
+INV-0102,Invoice received,2026-09-01 11:56,Supplier
+INV-0103,Invoice received,2026-09-01 17:58,Supplier
+INV-0161,Invoice received,2026-09-02 08:04,Supplier
+INV-0291,Invoice received,2026-09-02 08:04,Supplier
+INV-0036,Invoice received,2026-09-02 08:05,Supplier
+INV-0166,Invoice received,2026-09-02 08:10,Supplier
+INV-0261,Saved to shared drive,2026-09-02 08:23,AP clerk
+INV-0251,Invoice received,2026-09-02 08:27,Supplier
+INV-0017,Invoice received,2026-09-02 08:31,Supplier
+INV-0071,Invoice received,2026-09-02 08:40,Supplier
+INV-0057,Invoice received,2026-09-02 08:45,Supplier
+INV-0083,Saved to shared drive,2026-09-02 08:45,AP clerk
+INV-0020,Invoice received,2026-09-02 08:46,Supplier
+INV-0102,Saved to shared drive,2026-09-02 08:47,AP clerk
+INV-0212,Invoice received,2026-09-02 08:54,Supplier
+INV-0108,Invoice received,2026-09-02 09:37,Supplier
+INV-0096,Invoice received,2026-09-02 11:07,Supplier
+INV-0290,Invoice received,2026-09-02 13:14,Supplier
+INV-0103,Saved to shared drive,2026-09-02 13:54,AP clerk
+INV-0261,Entered in ERP,2026-09-02 14:49,AP clerk
+INV-0108,Saved to shared drive,2026-09-02 14:54,AP clerk
+INV-0003,Invoice received,2026-09-02 15:18,Supplier
+INV-0261,Matched to PO and receipt,2026-09-02 15:38,AP clerk
+INV-0062,Invoice received,2026-09-02 16:26,Supplier
+INV-0096,Saved to shared drive,2026-09-02 16:27,AP clerk
+INV-0065,Invoice received,2026-09-02 16:54,Supplier
+INV-0212,Saved to shared drive,2026-09-02 17:09,AP clerk
+INV-0251,Saved to shared drive,2026-09-03 08:00,AP clerk
+INV-0020,Saved to shared drive,2026-09-03 08:01,AP clerk
+INV-0113,Invoice received,2026-09-03 08:01,Supplier
+INV-0290,Saved to shared drive,2026-09-03 08:01,AP clerk
+INV-0154,Invoice received,2026-09-03 08:02,Supplier
+INV-0096,Entered in ERP,2026-09-03 08:03,AP clerk
+INV-0208,Invoice received,2026-09-03 08:08,Supplier
+INV-0103,Entered in ERP,2026-09-03 08:11,AP clerk
+INV-0013,Invoice received,2026-09-03 08:16,Supplier
+INV-0166,Saved to shared drive,2026-09-03 08:16,AP clerk
+INV-0108,Entered in ERP,2026-09-03 08:17,AP clerk
+INV-0261,Payment scheduled,2026-09-03 08:17,AP clerk
+INV-0017,Saved to shared drive,2026-09-03 08:18,AP clerk
+INV-0102,Entered in ERP,2026-09-03 08:22,AP clerk
+INV-0003,Saved to shared drive,2026-09-03 08:24,AP clerk
+INV-0036,Saved to shared drive,2026-09-03 08:24,AP clerk
+INV-0065,Saved to shared drive,2026-09-03 08:27,AP clerk
+INV-0291,Saved to shared drive,2026-09-03 08:29,AP clerk
+INV-0212,Entered in ERP,2026-09-03 08:36,AP clerk
+INV-0069,Invoice received,2026-09-03 08:42,Supplier
+INV-0246,Invoice received,2026-09-03 08:44,Supplier
+INV-0083,Entered in ERP,2026-09-03 08:54,AP clerk
+INV-0103,Matched to PO and receipt,2026-09-03 09:21,AP clerk
+INV-0057,Saved to shared drive,2026-09-03 09:42,AP clerk
+INV-0036,Entered in ERP,2026-09-03 09:44,AP clerk
+INV-0212,Matched to PO and receipt,2026-09-03 09:52,AP clerk
+INV-0083,Matched to PO and receipt,2026-09-03 10:19,AP clerk
+INV-0071,Saved to shared drive,2026-09-03 11:44,AP clerk
+INV-0102,Matched to PO and receipt,2026-09-03 11:54,AP clerk
+INV-0251,Entered in ERP,2026-09-03 11:57,AP clerk
+INV-0017,Entered in ERP,2026-09-03 12:05,AP clerk
+INV-0003,Entered in ERP,2026-09-03 12:08,AP clerk
+INV-0161,Saved to shared drive,2026-09-03 12:42,AP clerk
+INV-0036,Matched to PO and receipt,2026-09-03 12:43,AP clerk
+INV-0108,Matched to PO and receipt,2026-09-03 12:54,AP clerk
+INV-0291,Entered in ERP,2026-09-03 13:00,AP clerk
+INV-0003,Matched to PO and receipt,2026-09-03 13:31,AP clerk
+INV-0212,Payment scheduled,2026-09-03 15:33,AP clerk
+INV-0096,Matched to PO and receipt,2026-09-03 15:50,AP clerk
+INV-0017,Matched to PO and receipt,2026-09-03 16:39,AP clerk
+INV-0291,Matched to PO and receipt,2026-09-03 17:39,AP clerk
+INV-0251,Matched to PO and receipt,2026-09-03 17:44,AP clerk
+INV-0062,Saved to shared drive,2026-09-03 17:48,AP clerk
+INV-0102,Payment scheduled,2026-09-04 08:00,AP clerk
+INV-0246,Saved to shared drive,2026-09-04 08:02,AP clerk
+INV-0057,Entered in ERP,2026-09-04 08:05,AP clerk
+INV-0013,Saved to shared drive,2026-09-04 08:06,AP clerk
+INV-0214,Invoice received,2026-09-04 08:07,Supplier
+INV-0161,Entered in ERP,2026-09-04 08:09,AP clerk
+INV-0020,Entered in ERP,2026-09-04 08:10,AP clerk
+INV-0251,Query sent to buyer,2026-09-04 08:10,AP clerk
+INV-0015,Invoice received,2026-09-04 08:11,Supplier
+INV-0113,Saved to shared drive,2026-09-04 08:11,AP clerk
+INV-0062,Entered in ERP,2026-09-04 08:13,AP clerk
+INV-0154,Saved to shared drive,2026-09-04 08:13,AP clerk
+INV-0036,Payment scheduled,2026-09-04 08:19,AP clerk
+INV-0065,Entered in ERP,2026-09-04 08:25,AP clerk
+INV-0290,Entered in ERP,2026-09-04 08:26,AP clerk
+INV-0208,Saved to shared drive,2026-09-04 08:33,AP clerk
+INV-0003,Payment scheduled,2026-09-04 08:38,AP clerk
+INV-0071,Entered in ERP,2026-09-04 08:43,AP clerk
+INV-0149,Invoice received,2026-09-04 08:45,Supplier
+INV-0284,Invoice received,2026-09-04 08:48,Supplier
+INV-0213,Invoice received,2026-09-04 08:49,Supplier
+INV-0152,Invoice received,2026-09-04 08:55,Supplier
+INV-0166,Entered in ERP,2026-09-04 08:57,AP clerk
+INV-0017,Query sent to buyer,2026-09-04 08:59,AP clerk
+INV-0256,Invoice received,2026-09-04 09:13,Supplier
+INV-0072,Invoice received,2026-09-04 09:16,Supplier
+INV-0154,Entered in ERP,2026-09-04 09:28,AP clerk
+INV-0083,Payment scheduled,2026-09-04 10:17,AP clerk
+INV-0161,Matched to PO and receipt,2026-09-04 10:31,AP clerk
+INV-0015,Saved to shared drive,2026-09-04 10:53,AP clerk
+INV-0065,Matched to PO and receipt,2026-09-04 11:29,AP clerk
+INV-0161,Query sent to buyer,2026-09-04 11:30,AP clerk
+INV-0166,Matched to PO and receipt,2026-09-04 11:55,AP clerk
+INV-0271,Invoice received,2026-09-04 11:55,Supplier
+INV-0057,Matched to PO and receipt,2026-09-04 11:57,AP clerk
+INV-0113,Entered in ERP,2026-09-04 12:11,AP clerk
+INV-0270,Invoice received,2026-09-04 12:55,Supplier
+INV-0154,Matched to PO and receipt,2026-09-04 13:06,AP clerk
+INV-0259,Invoice received,2026-09-04 13:26,Supplier
+INV-0071,Matched to PO and receipt,2026-09-04 13:37,AP clerk
+INV-0069,Saved to shared drive,2026-09-04 13:47,AP clerk
+INV-0290,Matched to PO and receipt,2026-09-04 14:57,AP clerk
+INV-0071,Query sent to buyer,2026-09-04 15:29,AP clerk
+INV-0062,Matched to PO and receipt,2026-09-04 15:44,AP clerk
+INV-0020,Matched to PO and receipt,2026-09-04 15:50,AP clerk
+INV-0213,Saved to shared drive,2026-09-04 16:16,AP clerk
+INV-0108,Payment scheduled,2026-09-04 16:25,AP clerk
+INV-0096,Payment scheduled,2026-09-04 16:40,AP clerk
+INV-0069,Entered in ERP,2026-09-04 17:10,AP clerk
+INV-0103,Payment scheduled,2026-09-04 17:35,AP clerk
+INV-0213,Entered in ERP,2026-09-04 17:36,AP clerk
+INV-0243,Invoice received,2026-09-04 17:38,Supplier
+INV-0284,Saved to shared drive,2026-09-04 17:50,AP clerk
+INV-0215,Invoice received,2026-09-07 08:00,Supplier
+INV-0270,Saved to shared drive,2026-09-07 08:00,AP clerk
+INV-0025,Invoice received,2026-09-07 08:01,Supplier
+INV-0094,Invoice received,2026-09-07 08:01,Supplier
+INV-0104,Invoice received,2026-09-07 08:02,Supplier
+INV-0271,Saved to shared drive,2026-09-07 08:02,AP clerk
+INV-0152,Saved to shared drive,2026-09-07 08:03,AP clerk
+INV-0166,Payment scheduled,2026-09-07 08:03,AP clerk
+INV-0194,Invoice received,2026-09-07 08:03,Supplier
+INV-0027,Invoice received,2026-09-07 08:04,Supplier
+INV-0034,Invoice received,2026-09-07 08:04,Supplier
+INV-0055,Invoice received,2026-09-07 08:04,Supplier
+INV-0158,Invoice received,2026-09-07 08:06,Supplier
+INV-0284,Entered in ERP,2026-09-07 08:07,AP clerk
+INV-0144,Invoice received,2026-09-07 08:08,Supplier
+INV-0020,Payment scheduled,2026-09-07 08:09,AP clerk
+INV-0033,Invoice received,2026-09-07 08:09,Supplier
+INV-0065,Payment scheduled,2026-09-07 08:09,AP clerk
+INV-0112,Invoice received,2026-09-07 08:10,Supplier
+INV-0205,Invoice received,2026-09-07 08:10,Supplier
+INV-0214,Saved to shared drive,2026-09-07 08:11,AP clerk
+INV-0277,Invoice received,2026-09-07 08:13,Supplier
+INV-0018,Invoice received,2026-09-07 08:15,Supplier
+INV-0208,Entered in ERP,2026-09-07 08:15,AP clerk
+INV-0246,Entered in ERP,2026-09-07 08:15,AP clerk
+INV-0138,Invoice received,2026-09-07 08:17,Supplier
+INV-0234,Invoice received,2026-09-07 08:17,Supplier
+INV-0110,Invoice received,2026-09-07 08:19,Supplier
+INV-0062,Payment scheduled,2026-09-07 08:20,AP clerk
+INV-0256,Saved to shared drive,2026-09-07 08:20,AP clerk
+INV-0113,Matched to PO and receipt,2026-09-07 08:24,AP clerk
+INV-0011,Invoice received,2026-09-07 08:25,Supplier
+INV-0069,Matched to PO and receipt,2026-09-07 08:26,AP clerk
+INV-0130,Invoice received,2026-09-07 08:26,Supplier
+INV-0156,Invoice received,2026-09-07 08:28,Supplier
+INV-0015,Entered in ERP,2026-09-07 08:29,AP clerk
+INV-0279,Invoice received,2026-09-07 08:31,Supplier
+INV-0041,Invoice received,2026-09-07 08:32,Supplier
+INV-0063,Invoice received,2026-09-07 08:34,Supplier
+INV-0240,Invoice received,2026-09-07 08:34,Supplier
+INV-0058,Invoice received,2026-09-07 08:35,Supplier
+INV-0161,Buyer replied,2026-09-07 08:35,Buyer
+INV-0213,Matched to PO and receipt,2026-09-07 08:35,AP clerk
+INV-0105,Invoice received,2026-09-07 08:36,Supplier
+INV-0163,Invoice received,2026-09-07 08:37,Supplier
+INV-0149,Saved to shared drive,2026-09-07 08:39,AP clerk
+INV-0290,Query sent to buyer,2026-09-07 08:41,AP clerk
+INV-0013,Entered in ERP,2026-09-07 08:42,AP clerk
+INV-0119,Invoice received,2026-09-07 08:43,Supplier
+INV-0222,Invoice received,2026-09-07 08:43,Supplier
+INV-0260,Invoice received,2026-09-07 08:44,Supplier
+INV-0173,Invoice received,2026-09-07 08:48,Supplier
+INV-0154,Payment scheduled,2026-09-07 08:49,AP clerk
+INV-0040,Invoice received,2026-09-07 08:50,Supplier
+INV-0162,Invoice received,2026-09-07 08:50,Supplier
+INV-0245,Invoice received,2026-09-07 08:50,Supplier
+INV-0072,Saved to shared drive,2026-09-07 08:53,AP clerk
+INV-0243,Saved to shared drive,2026-09-07 08:53,AP clerk
+INV-0057,Payment scheduled,2026-09-07 08:54,AP clerk
+INV-0159,Invoice received,2026-09-07 08:55,Supplier
+INV-0200,Invoice received,2026-09-07 08:55,Supplier
+INV-0292,Invoice received,2026-09-07 08:55,Supplier
+INV-0291,Payment scheduled,2026-09-07 08:58,AP clerk
+INV-0074,Invoice received,2026-09-07 08:59,Supplier
+INV-0100,Invoice received,2026-09-07 08:59,Supplier
+INV-0259,Saved to shared drive,2026-09-07 08:59,AP clerk
+INV-0297,Invoice received,2026-09-07 08:59,Supplier
+INV-0208,Matched to PO and receipt,2026-09-07 09:09,AP clerk
+INV-0136,Invoice received,2026-09-07 09:32,Supplier
+INV-0214,Entered in ERP,2026-09-07 10:02,AP clerk
+INV-0277,Saved to shared drive,2026-09-07 10:17,AP clerk
+INV-0041,Saved to shared drive,2026-09-07 11:02,AP clerk
+INV-0214,Matched to PO and receipt,2026-09-07 11:27,AP clerk
+INV-0243,Entered in ERP,2026-09-07 11:54,AP clerk
+INV-0246,Matched to PO and receipt,2026-09-07 12:02,AP clerk
+INV-0194,Saved to shared drive,2026-09-07 12:23,AP clerk
+INV-0130,Saved to shared drive,2026-09-07 12:36,AP clerk
+INV-0161,Matched to PO and receipt,2026-09-07 12:42,AP clerk
+INV-0284,Matched to PO and receipt,2026-09-07 12:46,AP clerk
+INV-0079,Invoice received,2026-09-07 12:48,Supplier
+INV-0110,Saved to shared drive,2026-09-07 12:53,AP clerk
+INV-0270,Entered in ERP,2026-09-07 12:55,AP clerk
+INV-0243,Matched to PO and receipt,2026-09-07 13:09,AP clerk
+INV-0015,Matched to PO and receipt,2026-09-07 13:35,AP clerk
+INV-0200,Saved to shared drive,2026-09-07 13:37,AP clerk
+INV-0245,Saved to shared drive,2026-09-07 13:37,AP clerk
+INV-0215,Saved to shared drive,2026-09-07 13:50,AP clerk
+INV-0270,Matched to PO and receipt,2026-09-07 13:52,AP clerk
+INV-0136,Saved to shared drive,2026-09-07 14:04,AP clerk
+INV-0194,Entered in ERP,2026-09-07 14:21,AP clerk
+INV-0222,Saved to shared drive,2026-09-07 14:23,AP clerk
+INV-0058,Saved to shared drive,2026-09-07 14:33,AP clerk
+INV-0015,Query sent to buyer,2026-09-07 14:57,AP clerk
+INV-0013,Matched to PO and receipt,2026-09-07 15:11,AP clerk
+INV-0144,Saved to shared drive,2026-09-07 15:25,AP clerk
+INV-0271,Entered in ERP,2026-09-07 15:55,AP clerk
+INV-0041,Entered in ERP,2026-09-07 16:47,AP clerk
+INV-0011,Saved to shared drive,2026-09-07 16:54,AP clerk
+INV-0041,Matched to PO and receipt,2026-09-07 17:23,AP clerk
+INV-0040,Saved to shared drive,2026-09-07 17:30,AP clerk
+INV-0271,Matched to PO and receipt,2026-09-07 17:40,AP clerk
+INV-0119,Saved to shared drive,2026-09-08 08:00,AP clerk
+INV-0158,Saved to shared drive,2026-09-08 08:01,AP clerk
+INV-0194,Matched to PO and receipt,2026-09-08 08:01,AP clerk
+INV-0079,Saved to shared drive,2026-09-08 08:03,AP clerk
+INV-0215,Entered in ERP,2026-09-08 08:04,AP clerk
+INV-0284,Payment scheduled,2026-09-08 08:05,AP clerk
+INV-0214,Payment scheduled,2026-09-08 08:06,AP clerk
+INV-0159,Saved to shared drive,2026-09-08 08:07,AP clerk
+INV-0018,Saved to shared drive,2026-09-08 08:09,AP clerk
+INV-0149,Entered in ERP,2026-09-08 08:11,AP clerk
+INV-0287,Invoice received,2026-09-08 08:11,Supplier
+INV-0094,Saved to shared drive,2026-09-08 08:12,AP clerk
+INV-0156,Saved to shared drive,2026-09-08 08:12,AP clerk
+INV-0271,Query sent to buyer,2026-09-08 08:12,AP clerk
+INV-0138,Saved to shared drive,2026-09-08 08:14,AP clerk
+INV-0200,Entered in ERP,2026-09-08 08:15,AP clerk
+INV-0277,Entered in ERP,2026-09-08 08:15,AP clerk
+INV-0110,Entered in ERP,2026-09-08 08:16,AP clerk
+INV-0262,Invoice received,2026-09-08 08:16,Supplier
+INV-0011,Entered in ERP,2026-09-08 08:20,AP clerk
+INV-0164,Invoice received,2026-09-08 08:21,Supplier
+INV-0092,Invoice received,2026-09-08 08:22,Supplier
+INV-0113,Payment scheduled,2026-09-08 08:26,AP clerk
+INV-0100,Saved to shared drive,2026-09-08 08:27,AP clerk
+INV-0240,Saved to shared drive,2026-09-08 08:27,AP clerk
+INV-0163,Saved to shared drive,2026-09-08 08:28,AP clerk
+INV-0246,Payment scheduled,2026-09-08 08:29,AP clerk
+INV-0058,Entered in ERP,2026-09-08 08:30,AP clerk
+INV-0033,Saved to shared drive,2026-09-08 08:31,AP clerk
+INV-0069,Payment scheduled,2026-09-08 08:31,AP clerk
+INV-0259,Entered in ERP,2026-09-08 08:31,AP clerk
+INV-0040,Entered in ERP,2026-09-08 08:34,AP clerk
+INV-0104,Saved to shared drive,2026-09-08 08:37,AP clerk
+INV-0173,Saved to shared drive,2026-09-08 08:37,AP clerk
+INV-0297,Saved to shared drive,2026-09-08 08:37,AP clerk
+INV-0136,Entered in ERP,2026-09-08 08:38,AP clerk
+INV-0152,Entered in ERP,2026-09-08 08:40,AP clerk
+INV-0260,Saved to shared drive,2026-09-08 08:41,AP clerk
+INV-0074,Saved to shared drive,2026-09-08 08:47,AP clerk
+INV-0245,Entered in ERP,2026-09-08 08:47,AP clerk
+INV-0072,Entered in ERP,2026-09-08 08:50,AP clerk
+INV-0256,Entered in ERP,2026-09-08 08:50,AP clerk
+INV-0055,Saved to shared drive,2026-09-08 08:52,AP clerk
+INV-0162,Saved to shared drive,2026-09-08 08:52,AP clerk
+INV-0130,Entered in ERP,2026-09-08 08:54,AP clerk
+INV-0279,Saved to shared drive,2026-09-08 08:55,AP clerk
+INV-0112,Saved to shared drive,2026-09-08 08:56,AP clerk
+INV-0222,Entered in ERP,2026-09-08 08:57,AP clerk
+INV-0013,Payment scheduled,2026-09-08 08:58,AP clerk
+INV-0027,Saved to shared drive,2026-09-08 08:58,AP clerk
+INV-0251,Buyer replied,2026-09-08 08:58,Buyer
+INV-0041,Payment scheduled,2026-09-08 08:59,AP clerk
+INV-0292,Saved to shared drive,2026-09-08 08:59,AP clerk
+INV-0259,Matched to PO and receipt,2026-09-08 09:19,AP clerk
+INV-0119,Entered in ERP,2026-09-08 09:25,AP clerk
+INV-0205,Saved to shared drive,2026-09-08 09:28,AP clerk
+INV-0119,Matched to PO and receipt,2026-09-08 09:56,AP clerk
+INV-0040,Matched to PO and receipt,2026-09-08 10:16,AP clerk
+INV-0259,Query sent to buyer,2026-09-08 10:23,AP clerk
+INV-0136,Matched to PO and receipt,2026-09-08 10:24,AP clerk
+INV-0130,Matched to PO and receipt,2026-09-08 10:29,AP clerk
+INV-0287,Saved to shared drive,2026-09-08 10:36,AP clerk
+INV-0180,Invoice received,2026-09-08 10:43,Supplier
+INV-0033,Entered in ERP,2026-09-08 10:53,AP clerk
+INV-0144,Entered in ERP,2026-09-08 10:56,AP clerk
+INV-0138,Entered in ERP,2026-09-08 11:19,AP clerk
+INV-0130,Query sent to buyer,2026-09-08 11:21,AP clerk
+INV-0040,Query sent to buyer,2026-09-08 11:28,AP clerk
+INV-0256,Matched to PO and receipt,2026-09-08 11:33,AP clerk
+INV-0136,Query sent to buyer,2026-09-08 11:36,AP clerk
+INV-0234,Saved to shared drive,2026-09-08 11:46,AP clerk
+INV-0251,Query sent to buyer,2026-09-08 12:10,AP clerk
+INV-0011,Matched to PO and receipt,2026-09-08 12:28,AP clerk
+INV-0222,Matched to PO and receipt,2026-09-08 12:29,AP clerk
+INV-0134,Invoice received,2026-09-08 12:30,Supplier
+INV-0110,Matched to PO and receipt,2026-09-08 12:35,AP clerk
+INV-0234,Entered in ERP,2026-09-08 12:58,AP clerk
+INV-0105,Saved to shared drive,2026-09-08 13:00,AP clerk
+INV-0152,Matched to PO and receipt,2026-09-08 13:00,AP clerk
+INV-0256,Query sent to buyer,2026-09-08 13:08,AP clerk
+INV-0034,Saved to shared drive,2026-09-08 13:09,AP clerk
+INV-0033,Matched to PO and receipt,2026-09-08 13:11,AP clerk
+INV-0025,Saved to shared drive,2026-09-08 13:12,AP clerk
+INV-0063,Saved to shared drive,2026-09-08 13:20,AP clerk
+INV-0149,Matched to PO and receipt,2026-09-08 13:24,AP clerk
+INV-0245,Matched to PO and receipt,2026-09-08 13:39,AP clerk
+INV-0234,Matched to PO and receipt,2026-09-08 13:49,AP clerk
+INV-0159,Entered in ERP,2026-09-08 14:27,AP clerk
+INV-0297,Entered in ERP,2026-09-08 14:48,AP clerk
+INV-0100,Entered in ERP,2026-09-08 14:49,AP clerk
+INV-0066,Invoice received,2026-09-08 14:50,Supplier
+INV-0215,Matched to PO and receipt,2026-09-08 15:01,AP clerk
+INV-0200,Matched to PO and receipt,2026-09-08 15:04,AP clerk
+INV-0277,Matched to PO and receipt,2026-09-08 15:09,AP clerk
+INV-0110,Query sent to buyer,2026-09-08 15:18,AP clerk
+INV-0094,Entered in ERP,2026-09-08 15:24,AP clerk
+INV-0055,Entered in ERP,2026-09-08 15:39,AP clerk
+INV-0033,Query sent to buyer,2026-09-08 16:01,AP clerk
+INV-0058,Matched to PO and receipt,2026-09-08 16:08,AP clerk
+INV-0240,Entered in ERP,2026-09-08 16:09,AP clerk
+INV-0087,Invoice received,2026-09-08 16:10,Supplier
+INV-0072,Matched to PO and receipt,2026-09-08 16:23,AP clerk
+INV-0138,Matched to PO and receipt,2026-09-08 16:35,AP clerk
+INV-0011,Payment scheduled,2026-09-08 16:41,AP clerk
+INV-0159,Matched to PO and receipt,2026-09-08 16:47,AP clerk
+INV-0144,Matched to PO and receipt,2026-09-08 16:53,AP clerk
+INV-0215,Query sent to buyer,2026-09-08 17:31,AP clerk
+INV-0121,Invoice received,2026-09-08 17:34,Supplier
+INV-0100,Matched to PO and receipt,2026-09-08 17:37,AP clerk
+INV-0087,Saved to shared drive,2026-09-09 08:01,AP clerk
+INV-0074,Entered in ERP,2026-09-09 08:03,AP clerk
+INV-0297,Matched to PO and receipt,2026-09-09 08:03,AP clerk
+INV-0292,Entered in ERP,2026-09-09 08:05,AP clerk
+INV-0112,Entered in ERP,2026-09-09 08:06,AP clerk
+INV-0173,Entered in ERP,2026-09-09 08:06,AP clerk
+INV-0240,Matched to PO and receipt,2026-09-09 08:06,AP clerk
+INV-0070,Invoice received,2026-09-09 08:07,Supplier
+INV-0017,Buyer replied,2026-09-09 08:08,Buyer
+INV-0063,Entered in ERP,2026-09-09 08:08,AP clerk
+INV-0079,Entered in ERP,2026-09-09 08:08,AP clerk
+INV-0164,Saved to shared drive,2026-09-09 08:09,AP clerk
+INV-0158,Entered in ERP,2026-09-09 08:10,AP clerk
+INV-0071,Buyer replied,2026-09-09 08:11,Buyer
+INV-0155,Invoice received,2026-09-09 08:11,Supplier
+INV-0104,Entered in ERP,2026-09-09 08:12,AP clerk
+INV-0066,Saved to shared drive,2026-09-09 08:15,AP clerk
+INV-0127,Invoice received,2026-09-09 08:16,Supplier
+INV-0260,Entered in ERP,2026-09-09 08:17,AP clerk
+INV-0034,Entered in ERP,2026-09-09 08:19,AP clerk
+INV-0203,Invoice received,2026-09-09 08:20,Supplier
+INV-0055,Matched to PO and receipt,2026-09-09 08:24,AP clerk
+INV-0222,Payment scheduled,2026-09-09 08:24,AP clerk
+INV-0262,Saved to shared drive,2026-09-09 08:25,AP clerk
+INV-0205,Entered in ERP,2026-09-09 08:28,AP clerk
+INV-0058,Query sent to buyer,2026-09-09 08:30,AP clerk
+INV-0025,Entered in ERP,2026-09-09 08:32,AP clerk
+INV-0105,Entered in ERP,2026-09-09 08:32,AP clerk
+INV-0163,Entered in ERP,2026-09-09 08:33,AP clerk
+INV-0156,Entered in ERP,2026-09-09 08:34,AP clerk
+INV-0279,Entered in ERP,2026-09-09 08:37,AP clerk
+INV-0027,Entered in ERP,2026-09-09 08:40,AP clerk
+INV-0162,Entered in ERP,2026-09-09 08:42,AP clerk
+INV-0092,Saved to shared drive,2026-09-09 08:44,AP clerk
+INV-0144,Query sent to buyer,2026-09-09 08:45,AP clerk
+INV-0180,Saved to shared drive,2026-09-09 08:47,AP clerk
+INV-0138,Query sent to buyer,2026-09-09 08:50,AP clerk
+INV-0094,Matched to PO and receipt,2026-09-09 08:52,AP clerk
+INV-0287,Entered in ERP,2026-09-09 08:53,AP clerk
+INV-0213,Payment scheduled,2026-09-09 08:55,AP clerk
+INV-0018,Entered in ERP,2026-09-09 08:57,AP clerk
+INV-0055,Query sent to buyer,2026-09-09 09:06,AP clerk
+INV-0133,Invoice received,2026-09-09 09:06,Supplier
+INV-0173,Matched to PO and receipt,2026-09-09 09:21,AP clerk
+INV-0074,Matched to PO and receipt,2026-09-09 09:23,AP clerk
+INV-0006,Invoice received,2026-09-09 09:29,Supplier
+INV-0104,Matched to PO and receipt,2026-09-09 09:30,AP clerk
+INV-0180,Entered in ERP,2026-09-09 09:59,AP clerk
+INV-0164,Entered in ERP,2026-09-09 10:15,AP clerk
+INV-0205,Matched to PO and receipt,2026-09-09 10:21,AP clerk
+INV-0204,Invoice received,2026-09-09 10:29,Supplier
+INV-0134,Saved to shared drive,2026-09-09 10:32,AP clerk
+INV-0180,Matched to PO and receipt,2026-09-09 10:35,AP clerk
+INV-0158,Matched to PO and receipt,2026-09-09 10:40,AP clerk
+INV-0260,Matched to PO and receipt,2026-09-09 10:41,AP clerk
+INV-0061,Invoice received,2026-09-09 10:46,Supplier
+INV-0287,Matched to PO and receipt,2026-09-09 10:58,AP clerk
+INV-0277,Payment scheduled,2026-09-09 11:00,AP clerk
+INV-0074,Query sent to buyer,2026-09-09 11:43,AP clerk
+INV-0279,Matched to PO and receipt,2026-09-09 11:43,AP clerk
+INV-0018,Matched to PO and receipt,2026-09-09 11:55,AP clerk
+INV-0208,Payment scheduled,2026-09-09 12:17,AP clerk
+INV-0163,Matched to PO and receipt,2026-09-09 12:20,AP clerk
+INV-0079,Matched to PO and receipt,2026-09-09 12:21,AP clerk
+INV-0183,Invoice received,2026-09-09 12:29,Supplier
+INV-0105,Matched to PO and receipt,2026-09-09 12:39,AP clerk
+INV-0025,Matched to PO and receipt,2026-09-09 12:58,AP clerk
+INV-0262,Entered in ERP,2026-09-09 13:24,AP clerk
+INV-0027,Matched to PO and receipt,2026-09-09 13:32,AP clerk
+INV-0121,Saved to shared drive,2026-09-09 13:37,AP clerk
+INV-0156,Matched to PO and receipt,2026-09-09 13:49,AP clerk
+INV-0133,Saved to shared drive,2026-09-09 13:50,AP clerk
+INV-0200,Payment scheduled,2026-09-09 14:05,AP clerk
+INV-0204,Saved to shared drive,2026-09-09 14:05,AP clerk
+INV-0162,Matched to PO and receipt,2026-09-09 14:12,AP clerk
+INV-0087,Entered in ERP,2026-09-09 14:15,AP clerk
+INV-0164,Matched to PO and receipt,2026-09-09 14:15,AP clerk
+INV-0292,Matched to PO and receipt,2026-09-09 14:38,AP clerk
+INV-0063,Matched to PO and receipt,2026-09-09 14:43,AP clerk
+INV-0087,Matched to PO and receipt,2026-09-09 14:46,AP clerk
+INV-0006,Saved to shared drive,2026-09-09 14:47,AP clerk
+INV-0243,Payment scheduled,2026-09-09 15:14,AP clerk
+INV-0245,Payment scheduled,2026-09-09 15:14,AP clerk
+INV-0017,Matched to PO and receipt,2026-09-09 15:23,AP clerk
+INV-0112,Matched to PO and receipt,2026-09-09 15:28,AP clerk
+INV-0034,Matched to PO and receipt,2026-09-09 15:57,AP clerk
+INV-0203,Saved to shared drive,2026-09-09 15:58,AP clerk
+INV-0105,Query sent to buyer,2026-09-09 16:23,AP clerk
+INV-0164,Query sent to buyer,2026-09-09 16:28,AP clerk
+INV-0071,Matched to PO and receipt,2026-09-09 16:52,AP clerk
+INV-0005,Invoice received,2026-09-09 17:26,Supplier
+INV-0175,Invoice received,2026-09-10 08:00,Supplier
+INV-0180,Payment scheduled,2026-09-10 08:02,AP clerk
+INV-0181,Invoice received,2026-09-10 08:02,Supplier
+INV-0241,Invoice received,2026-09-10 08:07,Supplier
+INV-0163,Payment scheduled,2026-09-10 08:08,AP clerk
+INV-0152,Payment scheduled,2026-09-10 08:12,AP clerk
+INV-0133,Entered in ERP,2026-09-10 08:13,AP clerk
+INV-0070,Saved to shared drive,2026-09-10 08:18,AP clerk
+INV-0121,Entered in ERP,2026-09-10 08:18,AP clerk
+INV-0100,Payment scheduled,2026-09-10 08:20,AP clerk
+INV-0270,Approved by finance,2026-09-10 08:21,Finance manager
+INV-0110,Buyer replied,2026-09-10 08:22,Buyer
+INV-0259,Buyer replied,2026-09-10 08:25,Buyer
+INV-0156,Payment scheduled,2026-09-10 08:28,AP clerk
+INV-0119,Approved by finance,2026-09-10 08:30,Finance manager
+INV-0134,Entered in ERP,2026-09-10 08:31,AP clerk
+INV-0092,Entered in ERP,2026-09-10 08:32,AP clerk
+INV-0205,Payment scheduled,2026-09-10 08:34,AP clerk
+INV-0143,Invoice received,2026-09-10 08:36,Supplier
+INV-0256,Buyer replied,2026-09-10 08:36,Buyer
+INV-0075,Invoice received,2026-09-10 08:37,Supplier
+INV-0267,Invoice received,2026-09-10 08:41,Supplier
+INV-0161,Approved by finance,2026-09-10 08:42,Finance manager
+INV-0006,Entered in ERP,2026-09-10 08:43,AP clerk
+INV-0238,Invoice received,2026-09-10 08:44,Supplier
+INV-0262,Matched to PO and receipt,2026-09-10 08:45,AP clerk
+INV-0061,Saved to shared drive,2026-09-10 08:46,AP clerk
+INV-0159,Payment scheduled,2026-09-10 08:46,AP clerk
+INV-0015,Buyer replied,2026-09-10 08:49,Buyer
+INV-0094,Payment scheduled,2026-09-10 08:49,AP clerk
+INV-0007,Invoice received,2026-09-10 08:50,Supplier
+INV-0066,Entered in ERP,2026-09-10 08:50,AP clerk
+INV-0149,Payment scheduled,2026-09-10 08:53,AP clerk
+INV-0203,Entered in ERP,2026-09-10 08:53,AP clerk
+INV-0204,Entered in ERP,2026-09-10 08:53,AP clerk
+INV-0155,Saved to shared drive,2026-09-10 08:56,AP clerk
+INV-0001,Invoice received,2026-09-10 09:36,Supplier
+INV-0241,Saved to shared drive,2026-09-10 10:13,AP clerk
+INV-0260,Payment scheduled,2026-09-10 10:13,AP clerk
+INV-0133,Matched to PO and receipt,2026-09-10 10:15,AP clerk
+INV-0071,Payment scheduled,2026-09-10 10:46,AP clerk
+INV-0015,Matched to PO and receipt,2026-09-10 10:55,AP clerk
+INV-0121,Matched to PO and receipt,2026-09-10 11:25,AP clerk
+INV-0134,Matched to PO and receipt,2026-09-10 11:25,AP clerk
+INV-0204,Matched to PO and receipt,2026-09-10 11:35,AP clerk
+INV-0066,Matched to PO and receipt,2026-09-10 12:17,AP clerk
+INV-0259,Matched to PO and receipt,2026-09-10 12:50,AP clerk
+INV-0256,Query sent to buyer,2026-09-10 13:11,AP clerk
+INV-0127,Saved to shared drive,2026-09-10 13:17,AP clerk
+INV-0040,Buyer replied,2026-09-10 14:17,Buyer
+INV-0170,Invoice received,2026-09-10 14:21,Supplier
+INV-0158,Payment scheduled,2026-09-10 14:31,AP clerk
+INV-0092,Matched to PO and receipt,2026-09-10 14:38,AP clerk
+INV-0181,Saved to shared drive,2026-09-10 14:40,AP clerk
+INV-0287,Payment scheduled,2026-09-10 14:49,AP clerk
+INV-0006,Matched to PO and receipt,2026-09-10 14:53,AP clerk
+INV-0005,Saved to shared drive,2026-09-10 15:00,AP clerk
+INV-0072,Payment scheduled,2026-09-10 15:12,AP clerk
+INV-0133,Payment scheduled,2026-09-10 15:25,AP clerk
+INV-0079,Payment scheduled,2026-09-10 15:42,AP clerk
+INV-0017,Payment scheduled,2026-09-10 15:55,AP clerk
+INV-0110,Matched to PO and receipt,2026-09-10 16:21,AP clerk
+INV-0202,Invoice received,2026-09-10 16:47,Supplier
+INV-0203,Matched to PO and receipt,2026-09-10 16:48,AP clerk
+INV-0241,Entered in ERP,2026-09-10 17:00,AP clerk
+INV-0194,Payment scheduled,2026-09-10 17:03,AP clerk
+INV-0006,Query sent to buyer,2026-09-10 17:05,AP clerk
+INV-0144,Buyer replied,2026-09-10 17:29,Buyer
+INV-0297,Payment scheduled,2026-09-10 17:37,AP clerk
+INV-0183,Saved to shared drive,2026-09-10 17:45,AP clerk
+INV-0070,Entered in ERP,2026-09-10 17:46,AP clerk
+INV-0101,Invoice received,2026-09-11 08:01,Supplier
+INV-0181,Entered in ERP,2026-09-11 08:01,AP clerk
+INV-0119,Payment scheduled,2026-09-11 08:03,AP clerk
+INV-0183,Entered in ERP,2026-09-11 08:06,AP clerk
+INV-0040,Matched to PO and receipt,2026-09-11 08:07,AP clerk
+INV-0055,Buyer replied,2026-09-11 08:12,Buyer
+INV-0203,Payment scheduled,2026-09-11 08:15,AP clerk
+INV-0087,Payment scheduled,2026-09-11 08:16,AP clerk
+INV-0144,Matched to PO and receipt,2026-09-11 08:20,AP clerk
+INV-0234,Payment scheduled,2026-09-11 08:21,AP clerk
+INV-0110,Payment scheduled,2026-09-11 08:23,AP clerk
+INV-0127,Entered in ERP,2026-09-11 08:24,AP clerk
+INV-0070,Matched to PO and receipt,2026-09-11 08:25,AP clerk
+INV-0092,Payment scheduled,2026-09-11 08:25,AP clerk
+INV-0292,Approved by finance,2026-09-11 08:26,Finance manager
+INV-0007,Saved to shared drive,2026-09-11 08:28,AP clerk
+INV-0228,Invoice received,2026-09-11 08:28,Supplier
+INV-0267,Saved to shared drive,2026-09-11 08:28,AP clerk
+INV-0240,Approved by finance,2026-09-11 08:29,Finance manager
+INV-0202,Saved to shared drive,2026-09-11 08:31,AP clerk
+INV-0279,Approved by finance,2026-09-11 08:32,Finance manager
+INV-0044,Invoice received,2026-09-11 08:33,Supplier
+INV-0005,Entered in ERP,2026-09-11 08:38,AP clerk
+INV-0296,Invoice received,2026-09-11 08:40,Supplier
+INV-0170,Saved to shared drive,2026-09-11 08:43,AP clerk
+INV-0061,Entered in ERP,2026-09-11 08:44,AP clerk
+INV-0290,Buyer replied,2026-09-11 08:45,Buyer
+INV-0282,Invoice received,2026-09-11 08:46,Supplier
+INV-0155,Entered in ERP,2026-09-11 08:47,AP clerk
+INV-0241,Matched to PO and receipt,2026-09-11 08:48,AP clerk
+INV-0001,Saved to shared drive,2026-09-11 08:49,AP clerk
+INV-0175,Saved to shared drive,2026-09-11 08:58,AP clerk
+INV-0251,Buyer replied,2026-09-11 08:58,Buyer
+INV-0238,Saved to shared drive,2026-09-11 09:51,AP clerk
+INV-0143,Saved to shared drive,2026-09-11 10:13,AP clerk
+INV-0290,Query sent to buyer,2026-09-11 10:42,AP clerk
+INV-0001,Entered in ERP,2026-09-11 11:11,AP clerk
+INV-0282,Saved to shared drive,2026-09-11 11:32,AP clerk
+INV-0191,Invoice received,2026-09-11 11:49,Supplier
+INV-0181,Matched to PO and receipt,2026-09-11 12:09,AP clerk
+INV-0085,Invoice received,2026-09-11 12:46,Supplier
+INV-0218,Invoice received,2026-09-11 12:53,Supplier
+INV-0155,Matched to PO and receipt,2026-09-11 13:14,AP clerk
+INV-0005,Matched to PO and receipt,2026-09-11 13:26,AP clerk
+INV-0270,Payment scheduled,2026-09-11 13:26,AP clerk
+INV-0075,Saved to shared drive,2026-09-11 13:28,AP clerk
+INV-0070,Payment scheduled,2026-09-11 13:38,AP clerk
+INV-0061,Matched to PO and receipt,2026-09-11 13:39,AP clerk
+INV-0181,Query sent to buyer,2026-09-11 13:56,AP clerk
+INV-0143,Entered in ERP,2026-09-11 14:09,AP clerk
+INV-0044,Saved to shared drive,2026-09-11 14:11,AP clerk
+INV-0183,Matched to PO and receipt,2026-09-11 14:48,AP clerk
+INV-0055,Matched to PO and receipt,2026-09-11 15:25,AP clerk
+INV-0127,Matched to PO and receipt,2026-09-11 15:30,AP clerk
+INV-0202,Entered in ERP,2026-09-11 15:33,AP clerk
+INV-0085,Saved to shared drive,2026-09-11 15:36,AP clerk
+INV-0275,Invoice received,2026-09-11 15:38,Supplier
+INV-0001,Matched to PO and receipt,2026-09-11 15:42,AP clerk
+INV-0143,Matched to PO and receipt,2026-09-11 15:49,AP clerk
+INV-0282,Entered in ERP,2026-09-11 16:07,AP clerk
+INV-0044,Entered in ERP,2026-09-11 16:31,AP clerk
+INV-0218,Saved to shared drive,2026-09-11 16:49,AP clerk
+INV-0127,Query sent to buyer,2026-09-11 16:54,AP clerk
+INV-0162,Payment scheduled,2026-09-11 17:10,AP clerk
+INV-0251,Matched to PO and receipt,2026-09-11 17:12,AP clerk
+INV-0025,Payment scheduled,2026-09-11 17:47,AP clerk
+INV-0259,Approved by finance,2026-09-14 08:00,Finance manager
+INV-0161,Payment scheduled,2026-09-14 08:02,AP clerk
+INV-0218,Entered in ERP,2026-09-14 08:02,AP clerk
+INV-0290,Buyer replied,2026-09-14 08:02,Buyer
+INV-0061,Payment scheduled,2026-09-14 08:03,AP clerk
+INV-0143,Payment scheduled,2026-09-14 08:03,AP clerk
+INV-0018,Payment scheduled,2026-09-14 08:04,AP clerk
+INV-0001,Approved by finance,2026-09-14 08:05,Finance manager
+INV-0066,Approved by finance,2026-09-14 08:05,Finance manager
+INV-0134,Payment scheduled,2026-09-14 08:05,AP clerk
+INV-0191,Saved to shared drive,2026-09-14 08:05,AP clerk
+INV-0040,Payment scheduled,2026-09-14 08:07,AP clerk
+INV-0136,Buyer replied,2026-09-14 08:08,Buyer
+INV-0139,Invoice received,2026-09-14 08:10,Supplier
+INV-0155,Payment scheduled,2026-09-14 08:10,AP clerk
+INV-0101,Saved to shared drive,2026-09-14 08:12,AP clerk
+INV-0127,Buyer replied,2026-09-14 08:12,Buyer
+INV-0267,Entered in ERP,2026-09-14 08:12,AP clerk
+INV-0130,Buyer replied,2026-09-14 08:14,Buyer
+INV-0258,Invoice received,2026-09-14 08:14,Supplier
+INV-0058,Buyer replied,2026-09-14 08:15,Buyer
+INV-0005,Payment scheduled,2026-09-14 08:16,AP clerk
+INV-0145,Invoice received,2026-09-14 08:16,Supplier
+INV-0252,Invoice received,2026-09-14 08:16,Supplier
+INV-0081,Invoice received,2026-09-14 08:18,Supplier
+INV-0164,Buyer replied,2026-09-14 08:18,Buyer
+INV-0256,Buyer replied,2026-09-14 08:18,Buyer
+INV-0073,Invoice received,2026-09-14 08:19,Supplier
+INV-0279,Payment scheduled,2026-09-14 08:19,AP clerk
+INV-0034,Payment scheduled,2026-09-14 08:22,AP clerk
+INV-0228,Saved to shared drive,2026-09-14 08:22,AP clerk
+INV-0063,Payment scheduled,2026-09-14 08:23,AP clerk
+INV-0144,Payment scheduled,2026-09-14 08:23,AP clerk
+INV-0232,Invoice received,2026-09-14 08:23,Supplier
+INV-0002,Invoice received,2026-09-14 08:24,Supplier
+INV-0085,Entered in ERP,2026-09-14 08:24,AP clerk
+INV-0033,Buyer replied,2026-09-14 08:26,Buyer
+INV-0006,Buyer replied,2026-09-14 08:27,Buyer
+INV-0047,Invoice received,2026-09-14 08:27,Supplier
+INV-0007,Entered in ERP,2026-09-14 08:29,AP clerk
+INV-0012,Invoice received,2026-09-14 08:31,Supplier
+INV-0015,Payment scheduled,2026-09-14 08:31,AP clerk
+INV-0271,Buyer replied,2026-09-14 08:31,Buyer
+INV-0183,Payment scheduled,2026-09-14 08:32,AP clerk
+INV-0204,Approved by finance,2026-09-14 08:32,Finance manager
+INV-0251,Approved by finance,2026-09-14 08:33,Finance manager
+INV-0044,Matched to PO and receipt,2026-09-14 08:34,AP clerk
+INV-0112,Payment scheduled,2026-09-14 08:34,AP clerk
+INV-0238,Entered in ERP,2026-09-14 08:35,AP clerk
+INV-0240,Payment scheduled,2026-09-14 08:35,AP clerk
+INV-0173,Approved by finance,2026-09-14 08:37,Finance manager
+INV-0104,Payment scheduled,2026-09-14 08:38,AP clerk
+INV-0125,Invoice received,2026-09-14 08:39,Supplier
+INV-0227,Invoice received,2026-09-14 08:39,Supplier
+INV-0055,Payment scheduled,2026-09-14 08:42,AP clerk
+INV-0075,Entered in ERP,2026-09-14 08:42,AP clerk
+INV-0175,Entered in ERP,2026-09-14 08:42,AP clerk
+INV-0282,Matched to PO and receipt,2026-09-14 08:42,AP clerk
+INV-0024,Invoice received,2026-09-14 08:43,Supplier
+INV-0215,Buyer replied,2026-09-14 08:43,Buyer
+INV-0105,Buyer replied,2026-09-14 08:44,Buyer
+INV-0153,Invoice received,2026-09-14 08:45,Supplier
+INV-0138,Buyer replied,2026-09-14 08:47,Buyer
+INV-0241,Payment scheduled,2026-09-14 08:48,AP clerk
+INV-0202,Matched to PO and receipt,2026-09-14 08:49,AP clerk
+INV-0074,Buyer replied,2026-09-14 08:50,Buyer
+INV-0031,Invoice received,2026-09-14 08:51,Supplier
+INV-0170,Entered in ERP,2026-09-14 08:51,AP clerk
+INV-0142,Invoice received,2026-09-14 08:52,Supplier
+INV-0262,Approved by finance,2026-09-14 08:52,Finance manager
+INV-0296,Saved to shared drive,2026-09-14 08:52,AP clerk
+INV-0121,Payment scheduled,2026-09-14 08:53,AP clerk
+INV-0292,Payment scheduled,2026-09-14 08:53,AP clerk
+INV-0027,Payment scheduled,2026-09-14 08:55,AP clerk
+INV-0089,Invoice received,2026-09-14 08:55,Supplier
+INV-0275,Saved to shared drive,2026-09-14 08:58,AP clerk
+INV-0016,Invoice received,2026-09-14 09:08,Supplier
+INV-0136,Matched to PO and receipt,2026-09-14 09:10,AP clerk
+INV-0175,Matched to PO and receipt,2026-09-14 09:36,AP clerk
+INV-0238,Matched to PO and receipt,2026-09-14 09:54,AP clerk
+INV-0271,Matched to PO and receipt,2026-09-14 10:16,AP clerk
+INV-0267,Matched to PO and receipt,2026-09-14 10:29,AP clerk
+INV-0130,Matched to PO and receipt,2026-09-14 10:30,AP clerk
+INV-0033,Matched to PO and receipt,2026-09-14 10:49,AP clerk
+INV-0073,Saved to shared drive,2026-09-14 11:25,AP clerk
+INV-0129,Invoice received,2026-09-14 11:29,Supplier
+INV-0074,Matched to PO and receipt,2026-09-14 11:50,AP clerk
+INV-0218,Matched to PO and receipt,2026-09-14 12:19,AP clerk
+INV-0007,Matched to PO and receipt,2026-09-14 12:24,AP clerk
+INV-0139,Saved to shared drive,2026-09-14 12:34,AP clerk
+INV-0202,Query sent to buyer,2026-09-14 12:44,AP clerk
+INV-0256,Matched to PO and receipt,2026-09-14 12:55,AP clerk
+INV-0002,Saved to shared drive,2026-09-14 12:56,AP clerk
+INV-0218,Query sent to buyer,2026-09-14 13:18,AP clerk
+INV-0016,Saved to shared drive,2026-09-14 13:32,AP clerk
+INV-0215,Query sent to buyer,2026-09-14 13:50,AP clerk
+INV-0170,Matched to PO and receipt,2026-09-14 14:06,AP clerk
+INV-0001,Payment scheduled,2026-09-14 14:10,AP clerk
+INV-0029,Invoice received,2026-09-14 14:11,Supplier
+INV-0085,Matched to PO and receipt,2026-09-14 14:59,AP clerk
+INV-0042,Invoice received,2026-09-14 15:02,Supplier
+INV-0105,Matched to PO and receipt,2026-09-14 15:18,AP clerk
+INV-0181,Buyer replied,2026-09-14 15:22,Buyer
+INV-0138,Matched to PO and receipt,2026-09-14 15:26,AP clerk
+INV-0177,Invoice received,2026-09-14 15:30,Supplier
+INV-0058,Matched to PO and receipt,2026-09-14 15:34,AP clerk
+INV-0294,Invoice received,2026-09-14 15:42,Supplier
+INV-0075,Matched to PO and receipt,2026-09-14 15:49,AP clerk
+INV-0252,Saved to shared drive,2026-09-14 16:05,AP clerk
+INV-0296,Entered in ERP,2026-09-14 16:12,AP clerk
+INV-0006,Matched to PO and receipt,2026-09-14 16:19,AP clerk
+INV-0074,Payment scheduled,2026-09-14 16:25,AP clerk
+INV-0016,Entered in ERP,2026-09-14 16:28,AP clerk
+INV-0290,Matched to PO and receipt,2026-09-14 16:34,AP clerk
+INV-0153,Saved to shared drive,2026-09-14 16:37,AP clerk
+INV-0296,Matched to PO and receipt,2026-09-14 16:51,AP clerk
+INV-0164,Matched to PO and receipt,2026-09-14 17:03,AP clerk
+INV-0127,Matched to PO and receipt,2026-09-14 17:42,AP clerk
+INV-0024,Saved to shared drive,2026-09-15 08:00,AP clerk
+INV-0031,Saved to shared drive,2026-09-15 08:00,AP clerk
+INV-0042,Saved to shared drive,2026-09-15 08:00,AP clerk
+INV-0248,Invoice received,2026-09-15 08:00,Supplier
+INV-0067,Invoice received,2026-09-15 08:02,Supplier
+INV-0228,Entered in ERP,2026-09-15 08:04,AP clerk
+INV-0237,Invoice received,2026-09-15 08:04,Supplier
+INV-0142,Saved to shared drive,2026-09-15 08:05,AP clerk
+INV-0145,Saved to shared drive,2026-09-15 08:07,AP clerk
+INV-0101,Entered in ERP,2026-09-15 08:08,AP clerk
+INV-0151,Invoice received,2026-09-15 08:10,Supplier
+INV-0276,Invoice received,2026-09-15 08:13,Supplier
+INV-0227,Saved to shared drive,2026-09-15 08:14,AP clerk
+INV-0073,Entered in ERP,2026-09-15 08:16,AP clerk
+INV-0105,Payment scheduled,2026-09-15 08:16,AP clerk
+INV-0125,Saved to shared drive,2026-09-15 08:19,AP clerk
+INV-0177,Saved to shared drive,2026-09-15 08:21,AP clerk
+INV-0012,Saved to shared drive,2026-09-15 08:22,AP clerk
+INV-0296,Payment scheduled,2026-09-15 08:23,AP clerk
+INV-0232,Saved to shared drive,2026-09-15 08:25,AP clerk
+INV-0139,Entered in ERP,2026-09-15 08:26,AP clerk
+INV-0181,Matched to PO and receipt,2026-09-15 08:27,AP clerk
+INV-0249,Invoice received,2026-09-15 08:30,Supplier
+INV-0047,Saved to shared drive,2026-09-15 08:31,AP clerk
+INV-0016,Matched to PO and receipt,2026-09-15 08:32,AP clerk
+INV-0242,Invoice received,2026-09-15 08:33,Supplier
+INV-0153,Entered in ERP,2026-09-15 08:37,AP clerk
+INV-0204,Payment scheduled,2026-09-15 08:37,AP clerk
+INV-0130,Approved by finance,2026-09-15 08:39,Finance manager
+INV-0059,Invoice received,2026-09-15 08:41,Supplier
+INV-0029,Saved to shared drive,2026-09-15 08:45,AP clerk
+INV-0275,Entered in ERP,2026-09-15 08:45,AP clerk
+INV-0140,Invoice received,2026-09-15 08:47,Supplier
+INV-0052,Invoice received,2026-09-15 08:48,Supplier
+INV-0258,Saved to shared drive,2026-09-15 08:48,AP clerk
+INV-0191,Entered in ERP,2026-09-15 08:54,AP clerk
+INV-0290,Payment scheduled,2026-09-15 08:55,AP clerk
+INV-0054,Invoice received,2026-09-15 08:56,Supplier
+INV-0044,Approved by finance,2026-09-15 08:57,Finance manager
+INV-0207,Invoice received,2026-09-15 08:57,Supplier
+INV-0002,Entered in ERP,2026-09-15 08:59,AP clerk
+INV-0129,Saved to shared drive,2026-09-15 09:00,AP clerk
+INV-0028,Invoice received,2026-09-15 09:06,Supplier
+INV-0139,Matched to PO and receipt,2026-09-15 09:07,AP clerk
+INV-0293,Invoice received,2026-09-15 09:11,Supplier
+INV-0114,Invoice received,2026-09-15 09:29,Supplier
+INV-0075,Payment scheduled,2026-09-15 09:39,AP clerk
+INV-0073,Matched to PO and receipt,2026-09-15 10:30,AP clerk
+INV-0191,Matched to PO and receipt,2026-09-15 10:31,AP clerk
+INV-0111,Invoice received,2026-09-15 10:38,Supplier
+INV-0059,Saved to shared drive,2026-09-15 10:47,AP clerk
+INV-0262,Payment scheduled,2026-09-15 10:54,AP clerk
+INV-0081,Saved to shared drive,2026-09-15 11:02,AP clerk
+INV-0275,Matched to PO and receipt,2026-09-15 11:02,AP clerk
+INV-0145,Entered in ERP,2026-09-15 11:08,AP clerk
+INV-0252,Entered in ERP,2026-09-15 11:09,AP clerk
+INV-0151,Saved to shared drive,2026-09-15 11:14,AP clerk
+INV-0227,Entered in ERP,2026-09-15 11:18,AP clerk
+INV-0101,Matched to PO and receipt,2026-09-15 11:21,AP clerk
+INV-0142,Entered in ERP,2026-09-15 11:28,AP clerk
+INV-0175,Approved by finance,2026-09-15 11:46,Finance manager
+INV-0153,Matched to PO and receipt,2026-09-15 12:03,AP clerk
+INV-0024,Entered in ERP,2026-09-15 12:13,AP clerk
+INV-0043,Invoice received,2026-09-15 12:29,Supplier
+INV-0085,Approved by finance,2026-09-15 12:47,Finance manager
+INV-0089,Saved to shared drive,2026-09-15 12:54,AP clerk
+INV-0145,Matched to PO and receipt,2026-09-15 13:10,AP clerk
+INV-0047,Entered in ERP,2026-09-15 13:20,AP clerk
+INV-0227,Matched to PO and receipt,2026-09-15 13:29,AP clerk
+INV-0275,Query sent to buyer,2026-09-15 13:31,AP clerk
+INV-0125,Entered in ERP,2026-09-15 13:36,AP clerk
+INV-0024,Matched to PO and receipt,2026-09-15 13:40,AP clerk
+INV-0191,Query sent to buyer,2026-09-15 14:30,AP clerk
+INV-0258,Entered in ERP,2026-09-15 14:31,AP clerk
+INV-0276,Saved to shared drive,2026-09-15 14:37,AP clerk
+INV-0125,Matched to PO and receipt,2026-09-15 14:53,AP clerk
+INV-0228,Matched to PO and receipt,2026-09-15 14:56,AP clerk
+INV-0267,Payment scheduled,2026-09-15 15:24,AP clerk
+INV-0142,Matched to PO and receipt,2026-09-15 15:25,AP clerk
+INV-0252,Matched to PO and receipt,2026-09-15 15:26,AP clerk
+INV-0002,Matched to PO and receipt,2026-09-15 15:41,AP clerk
+INV-0029,Entered in ERP,2026-09-15 15:56,AP clerk
+INV-0127,Payment scheduled,2026-09-15 16:00,AP clerk
+INV-0136,Payment scheduled,2026-09-15 16:41,AP clerk
+INV-0207,Saved to shared drive,2026-09-15 16:43,AP clerk
+INV-0248,Saved to shared drive,2026-09-15 16:48,AP clerk
+INV-0285,Invoice received,2026-09-15 16:51,Supplier
+INV-0002,Query sent to buyer,2026-09-15 16:57,AP clerk
+INV-0114,Saved to shared drive,2026-09-15 17:18,AP clerk
+INV-0249,Saved to shared drive,2026-09-15 17:18,AP clerk
+INV-0024,Query sent to buyer,2026-09-15 17:20,AP clerk
+INV-0294,Saved to shared drive,2026-09-15 17:21,AP clerk
+INV-0089,Entered in ERP,2026-09-15 17:22,AP clerk
+INV-0047,Matched to PO and receipt,2026-09-15 17:37,AP clerk
+INV-0202,Buyer replied,2026-09-15 17:37,Buyer
+INV-0138,Payment scheduled,2026-09-15 17:54,AP clerk
+INV-0242,Saved to shared drive,2026-09-15 17:59,AP clerk
+INV-0251,Payment scheduled,2026-09-16 08:00,AP clerk
+INV-0107,Invoice received,2026-09-16 08:01,Supplier
+INV-0047,Query sent to buyer,2026-09-16 08:02,AP clerk
+INV-0192,Invoice received,2026-09-16 08:04,Supplier
+INV-0285,Saved to shared drive,2026-09-16 08:05,AP clerk
+INV-0056,Invoice received,2026-09-16 08:06,Supplier
+INV-0059,Entered in ERP,2026-09-16 08:07,AP clerk
+INV-0142,Payment scheduled,2026-09-16 08:08,AP clerk
+INV-0227,Payment scheduled,2026-09-16 08:08,AP clerk
+INV-0168,Invoice received,2026-09-16 08:09,Supplier
+INV-0216,Invoice received,2026-09-16 08:12,Supplier
+INV-0248,Entered in ERP,2026-09-16 08:12,AP clerk
+INV-0242,Entered in ERP,2026-09-16 08:16,AP clerk
+INV-0085,Payment scheduled,2026-09-16 08:17,AP clerk
+INV-0114,Entered in ERP,2026-09-16 08:17,AP clerk
+INV-0129,Entered in ERP,2026-09-16 08:17,AP clerk
+INV-0276,Entered in ERP,2026-09-16 08:18,AP clerk
+INV-0029,Matched to PO and receipt,2026-09-16 08:19,AP clerk
+INV-0054,Saved to shared drive,2026-09-16 08:20,AP clerk
+INV-0207,Entered in ERP,2026-09-16 08:21,AP clerk
+INV-0258,Matched to PO and receipt,2026-09-16 08:22,AP clerk
+INV-0012,Entered in ERP,2026-09-16 08:28,AP clerk
+INV-0073,Payment scheduled,2026-09-16 08:30,AP clerk
+INV-0042,Entered in ERP,2026-09-16 08:33,AP clerk
+INV-0151,Entered in ERP,2026-09-16 08:33,AP clerk
+INV-0232,Entered in ERP,2026-09-16 08:33,AP clerk
+INV-0237,Saved to shared drive,2026-09-16 08:33,AP clerk
+INV-0016,Payment scheduled,2026-09-16 08:34,AP clerk
+INV-0177,Entered in ERP,2026-09-16 08:35,AP clerk
+INV-0249,Entered in ERP,2026-09-16 08:35,AP clerk
+INV-0202,Matched to PO and receipt,2026-09-16 08:37,AP clerk
+INV-0031,Entered in ERP,2026-09-16 08:43,AP clerk
+INV-0259,Payment scheduled,2026-09-16 08:44,AP clerk
+INV-0028,Saved to shared drive,2026-09-16 08:45,AP clerk
+INV-0101,Payment scheduled,2026-09-16 08:45,AP clerk
+INV-0252,Payment scheduled,2026-09-16 08:45,AP clerk
+INV-0033,Payment scheduled,2026-09-16 08:47,AP clerk
+INV-0294,Entered in ERP,2026-09-16 08:49,AP clerk
+INV-0089,Matched to PO and receipt,2026-09-16 08:53,AP clerk
+INV-0007,Payment scheduled,2026-09-16 08:56,AP clerk
+INV-0081,Entered in ERP,2026-09-16 08:57,AP clerk
+INV-0052,Saved to shared drive,2026-09-16 09:08,AP clerk
+INV-0293,Saved to shared drive,2026-09-16 09:35,AP clerk
+INV-0028,Entered in ERP,2026-09-16 10:06,AP clerk
+INV-0151,Matched to PO and receipt,2026-09-16 10:15,AP clerk
+INV-0177,Matched to PO and receipt,2026-09-16 10:40,AP clerk
+INV-0192,Saved to shared drive,2026-09-16 11:00,AP clerk
+INV-0177,Query sent to buyer,2026-09-16 11:13,AP clerk
+INV-0293,Entered in ERP,2026-09-16 11:15,AP clerk
+INV-0067,Saved to shared drive,2026-09-16 11:24,AP clerk
+INV-0140,Saved to shared drive,2026-09-16 11:32,AP clerk
+INV-0249,Matched to PO and receipt,2026-09-16 11:46,AP clerk
+INV-0238,Payment scheduled,2026-09-16 11:51,AP clerk
+INV-0059,Matched to PO and receipt,2026-09-16 11:59,AP clerk
+INV-0129,Matched to PO and receipt,2026-09-16 12:03,AP clerk
+INV-0042,Matched to PO and receipt,2026-09-16 12:17,AP clerk
+INV-0256,Payment scheduled,2026-09-16 12:18,AP clerk
+INV-0114,Matched to PO and receipt,2026-09-16 12:34,AP clerk
+INV-0242,Matched to PO and receipt,2026-09-16 12:45,AP clerk
+INV-0232,Matched to PO and receipt,2026-09-16 12:47,AP clerk
+INV-0293,Matched to PO and receipt,2026-09-16 13:07,AP clerk
+INV-0276,Matched to PO and receipt,2026-09-16 13:09,AP clerk
+INV-0107,Saved to shared drive,2026-09-16 13:27,AP clerk
+INV-0028,Matched to PO and receipt,2026-09-16 13:54,AP clerk
+INV-0248,Matched to PO and receipt,2026-09-16 14:05,AP clerk
+INV-0012,Matched to PO and receipt,2026-09-16 14:08,AP clerk
+INV-0207,Matched to PO and receipt,2026-09-16 14:09,AP clerk
+INV-0031,Matched to PO and receipt,2026-09-16 14:24,AP clerk
+INV-0171,Invoice received,2026-09-16 14:30,Supplier
+INV-0066,Payment scheduled,2026-09-16 14:49,AP clerk
+INV-0282,Approved by finance,2026-09-16 15:02,Finance manager
+INV-0223,Invoice received,2026-09-16 15:07,Supplier
+INV-0111,Saved to shared drive,2026-09-16 15:15,AP clerk
+INV-0173,Payment scheduled,2026-09-16 15:48,AP clerk
+INV-0294,Matched to PO and receipt,2026-09-16 15:51,AP clerk
+INV-0168,Saved to shared drive,2026-09-16 16:03,AP clerk
+INV-0276,Query sent to buyer,2026-09-16 16:03,AP clerk
+INV-0224,Invoice received,2026-09-16 16:16,Supplier
+INV-0269,Invoice received,2026-09-16 16:25,Supplier
+INV-0285,Entered in ERP,2026-09-16 16:50,AP clerk
+INV-0081,Matched to PO and receipt,2026-09-16 16:55,AP clerk
+INV-0140,Entered in ERP,2026-09-16 16:58,AP clerk
+INV-0064,Invoice received,2026-09-16 17:04,Supplier
+INV-0285,Matched to PO and receipt,2026-09-16 17:53,AP clerk
+INV-0043,Saved to shared drive,2026-09-16 17:59,AP clerk
+INV-0165,Invoice received,2026-09-17 08:02,Supplier
+INV-0249,Payment scheduled,2026-09-17 08:02,AP clerk
+INV-0107,Entered in ERP,2026-09-17 08:08,AP clerk
+INV-0056,Saved to shared drive,2026-09-17 08:09,AP clerk
+INV-0269,Saved to shared drive,2026-09-17 08:09,AP clerk
+INV-0271,Payment scheduled,2026-09-17 08:09,AP clerk
+INV-0029,Payment scheduled,2026-09-17 08:15,AP clerk
+INV-0081,Payment scheduled,2026-09-17 08:18,AP clerk
+INV-0054,Entered in ERP,2026-09-17 08:19,AP clerk
+INV-0067,Entered in ERP,2026-09-17 08:19,AP clerk
+INV-0125,Approved by finance,2026-09-17 08:19,Finance manager
+INV-0168,Entered in ERP,2026-09-17 08:19,AP clerk
+INV-0006,Payment scheduled,2026-09-17 08:20,AP clerk
+INV-0052,Entered in ERP,2026-09-17 08:21,AP clerk
+INV-0250,Invoice received,2026-09-17 08:21,Supplier
+INV-0224,Saved to shared drive,2026-09-17 08:23,AP clerk
+INV-0130,Payment scheduled,2026-09-17 08:26,AP clerk
+INV-0064,Saved to shared drive,2026-09-17 08:27,AP clerk
+INV-0207,Payment scheduled,2026-09-17 08:28,AP clerk
+INV-0237,Entered in ERP,2026-09-17 08:28,AP clerk
+INV-0255,Invoice received,2026-09-17 08:28,Supplier
+INV-0043,Entered in ERP,2026-09-17 08:29,AP clerk
+INV-0030,Invoice received,2026-09-17 08:31,Supplier
+INV-0258,Payment scheduled,2026-09-17 08:32,AP clerk
+INV-0170,Approved by finance,2026-09-17 08:40,Finance manager
+INV-0215,Buyer replied,2026-09-17 08:42,Buyer
+INV-0068,Invoice received,2026-09-17 08:46,Supplier
+INV-0164,Approved by finance,2026-09-17 08:46,Finance manager
+INV-0272,Invoice received,2026-09-17 08:46,Supplier
+INV-0192,Entered in ERP,2026-09-17 08:49,AP clerk
+INV-0058,Payment scheduled,2026-09-17 08:50,AP clerk
+INV-0111,Entered in ERP,2026-09-17 08:50,AP clerk
+INV-0145,Approved by finance,2026-09-17 08:54,Finance manager
+INV-0171,Saved to shared drive,2026-09-17 08:54,AP clerk
+INV-0140,Matched to PO and receipt,2026-09-17 08:55,AP clerk
+INV-0206,Invoice received,2026-09-17 08:56,Supplier
+INV-0129,Payment scheduled,2026-09-17 09:17,AP clerk
+INV-0171,Entered in ERP,2026-09-17 10:01,AP clerk
+INV-0223,Saved to shared drive,2026-09-17 10:11,AP clerk
+INV-0176,Invoice received,2026-09-17 10:36,Supplier
+INV-0233,Invoice received,2026-09-17 10:41,Supplier
+INV-0056,Entered in ERP,2026-09-17 11:24,AP clerk
+INV-0237,Matched to PO and receipt,2026-09-17 11:32,AP clerk
+INV-0177,Buyer replied,2026-09-17 11:37,Buyer
+INV-0171,Matched to PO and receipt,2026-09-17 11:56,AP clerk
+INV-0117,Invoice received,2026-09-17 11:59,Supplier
+INV-0168,Matched to PO and receipt,2026-09-17 11:59,AP clerk
+INV-0044,Payment scheduled,2026-09-17 12:03,AP clerk
+INV-0067,Matched to PO and receipt,2026-09-17 12:11,AP clerk
+INV-0228,Payment scheduled,2026-09-17 12:18,AP clerk
+INV-0216,Saved to shared drive,2026-09-17 12:33,AP clerk
+INV-0052,Matched to PO and receipt,2026-09-17 12:37,AP clerk
+INV-0175,Payment scheduled,2026-09-17 13:08,AP clerk
+INV-0215,Matched to PO and receipt,2026-09-17 13:11,AP clerk
+INV-0067,Query sent to buyer,2026-09-17 13:21,AP clerk
+INV-0177,Matched to PO and receipt,2026-09-17 13:42,AP clerk
+INV-0107,Matched to PO and receipt,2026-09-17 14:04,AP clerk
+INV-0283,Invoice received,2026-09-17 14:16,Supplier
+INV-0042,Payment scheduled,2026-09-17 14:17,AP clerk
+INV-0054,Matched to PO and receipt,2026-09-17 14:34,AP clerk
+INV-0004,Invoice received,2026-09-17 14:50,Supplier
+INV-0293,Payment scheduled,2026-09-17 15:06,AP clerk
+INV-0233,Saved to shared drive,2026-09-17 15:08,AP clerk
+INV-0043,Matched to PO and receipt,2026-09-17 15:13,AP clerk
+INV-0224,Entered in ERP,2026-09-17 15:16,AP clerk
+INV-0202,Payment scheduled,2026-09-17 15:21,AP clerk
+INV-0109,Invoice received,2026-09-17 15:31,Supplier
+INV-0139,Payment scheduled,2026-09-17 15:35,AP clerk
+INV-0047,Buyer replied,2026-09-17 15:45,Buyer
+INV-0111,Matched to PO and receipt,2026-09-17 15:45,AP clerk
+INV-0242,Payment scheduled,2026-09-17 15:46,AP clerk
+INV-0192,Matched to PO and receipt,2026-09-17 15:48,AP clerk
+INV-0282,Payment scheduled,2026-09-17 15:51,AP clerk
+INV-0206,Saved to shared drive,2026-09-17 15:58,AP clerk
+INV-0120,Invoice received,2026-09-17 16:10,Supplier
+INV-0051,Invoice received,2026-09-17 16:29,Supplier
+INV-0047,Matched to PO and receipt,2026-09-17 17:07,AP clerk
+INV-0048,Invoice received,2026-09-17 17:30,Supplier
+INV-0225,Invoice received,2026-09-17 17:34,Supplier
+INV-0224,Matched to PO and receipt,2026-09-17 17:35,AP clerk
+INV-0012,Payment scheduled,2026-09-18 08:00,AP clerk
+INV-0223,Entered in ERP,2026-09-18 08:01,AP clerk
+INV-0114,Approved by finance,2026-09-18 08:02,Finance manager
+INV-0090,Invoice received,2026-09-18 08:04,Supplier
+INV-0237,Payment scheduled,2026-09-18 08:05,AP clerk
+INV-0176,Saved to shared drive,2026-09-18 08:06,AP clerk
+INV-0283,Saved to shared drive,2026-09-18 08:06,AP clerk
+INV-0231,Invoice received,2026-09-18 08:07,Supplier
+INV-0276,Buyer replied,2026-09-18 08:07,Buyer
+INV-0089,Payment scheduled,2026-09-18 08:09,AP clerk
+INV-0031,Payment scheduled,2026-09-18 08:10,AP clerk
+INV-0004,Saved to shared drive,2026-09-18 08:15,AP clerk
+INV-0030,Saved to shared drive,2026-09-18 08:16,AP clerk
+INV-0250,Saved to shared drive,2026-09-18 08:17,AP clerk
+INV-0052,Payment scheduled,2026-09-18 08:18,AP clerk
+INV-0216,Entered in ERP,2026-09-18 08:18,AP clerk
+INV-0151,Payment scheduled,2026-09-18 08:19,AP clerk
+INV-0064,Entered in ERP,2026-09-18 08:21,AP clerk
+INV-0168,Payment scheduled,2026-09-18 08:23,AP clerk
+INV-0255,Saved to shared drive,2026-09-18 08:23,AP clerk
+INV-0225,Saved to shared drive,2026-09-18 08:26,AP clerk
+INV-0272,Saved to shared drive,2026-09-18 08:27,AP clerk
+INV-0232,Approved by finance,2026-09-18 08:35,Finance manager
+INV-0056,Matched to PO and receipt,2026-09-18 08:36,AP clerk
+INV-0206,Entered in ERP,2026-09-18 08:36,AP clerk
+INV-0177,Payment scheduled,2026-09-18 08:38,AP clerk
+INV-0236,Invoice received,2026-09-18 08:39,Supplier
+INV-0191,Buyer replied,2026-09-18 08:40,Buyer
+INV-0285,Payment scheduled,2026-09-18 08:42,AP clerk
+INV-0068,Saved to shared drive,2026-09-18 08:45,AP clerk
+INV-0269,Entered in ERP,2026-09-18 08:48,AP clerk
+INV-0059,Approved by finance,2026-09-18 08:52,Finance manager
+INV-0120,Saved to shared drive,2026-09-18 08:53,AP clerk
+INV-0054,Payment scheduled,2026-09-18 08:54,AP clerk
+INV-0181,Approved by finance,2026-09-18 08:54,Finance manager
+INV-0294,Approved by finance,2026-09-18 08:58,Finance manager
+INV-0176,Entered in ERP,2026-09-18 09:22,AP clerk
+INV-0165,Saved to shared drive,2026-09-18 09:34,AP clerk
+INV-0233,Entered in ERP,2026-09-18 09:36,AP clerk
+INV-0192,Payment scheduled,2026-09-18 10:26,AP clerk
+INV-0255,Entered in ERP,2026-09-18 11:01,AP clerk
+INV-0153,Approved by finance,2026-09-18 11:14,Finance manager
+INV-0216,Matched to PO and receipt,2026-09-18 11:20,AP clerk
+INV-0117,Saved to shared drive,2026-09-18 11:23,AP clerk
+INV-0244,Invoice received,2026-09-18 11:56,Supplier
+INV-0109,Saved to shared drive,2026-09-18 11:57,AP clerk
+INV-0064,Matched to PO and receipt,2026-09-18 12:13,AP clerk
+INV-0233,Matched to PO and receipt,2026-09-18 12:31,AP clerk
+INV-0176,Matched to PO and receipt,2026-09-18 12:46,AP clerk
+INV-0191,Query sent to buyer,2026-09-18 12:49,AP clerk
+INV-0255,Matched to PO and receipt,2026-09-18 12:50,AP clerk
+INV-0223,Matched to PO and receipt,2026-09-18 13:23,AP clerk
+INV-0051,Saved to shared drive,2026-09-18 13:36,AP clerk
+INV-0269,Matched to PO and receipt,2026-09-18 13:47,AP clerk
+INV-0206,Matched to PO and receipt,2026-09-18 14:26,AP clerk
+INV-0164,Payment scheduled,2026-09-18 14:58,AP clerk
+INV-0135,Invoice received,2026-09-18 15:28,Supplier
+INV-0244,Saved to shared drive,2026-09-18 15:40,AP clerk
+INV-0048,Saved to shared drive,2026-09-18 16:30,AP clerk
+INV-0250,Entered in ERP,2026-09-18 16:36,AP clerk
+INV-0244,Entered in ERP,2026-09-18 16:54,AP clerk
+INV-0068,Entered in ERP,2026-09-18 17:35,AP clerk
+INV-0150,Invoice received,2026-09-18 17:41,Supplier
+INV-0165,Entered in ERP,2026-09-18 17:41,AP clerk
+INV-0272,Entered in ERP,2026-09-18 17:42,AP clerk
+INV-0276,Matched to PO and receipt,2026-09-18 17:50,AP clerk
+INV-0043,Payment scheduled,2026-09-18 17:52,AP clerk
+INV-0090,Saved to shared drive,2026-09-21 08:00,AP clerk
+INV-0056,Payment scheduled,2026-09-21 08:01,AP clerk
+INV-0135,Saved to shared drive,2026-09-21 08:01,AP clerk
+INV-0224,Payment scheduled,2026-09-21 08:02,AP clerk
+INV-0114,Payment scheduled,2026-09-21 08:03,AP clerk
+INV-0080,Invoice received,2026-09-21 08:04,Supplier
+INV-0294,Payment scheduled,2026-09-21 08:04,AP clerk
+INV-0140,Payment scheduled,2026-09-21 08:05,AP clerk
+INV-0126,Invoice received,2026-09-21 08:06,Supplier
+INV-0248,Payment scheduled,2026-09-21 08:06,AP clerk
+INV-0250,Matched to PO and receipt,2026-09-21 08:07,AP clerk
+INV-0124,Invoice received,2026-09-21 08:08,Supplier
+INV-0153,Payment scheduled,2026-09-21 08:08,AP clerk
+INV-0221,Invoice received,2026-09-21 08:08,Supplier
+INV-0067,Buyer replied,2026-09-21 08:09,Buyer
+INV-0244,Matched to PO and receipt,2026-09-21 08:10,AP clerk
+INV-0068,Matched to PO and receipt,2026-09-21 08:11,AP clerk
+INV-0145,Payment scheduled,2026-09-21 08:11,AP clerk
+INV-0191,Buyer replied,2026-09-21 08:11,Buyer
+INV-0223,Payment scheduled,2026-09-21 08:11,AP clerk
+INV-0236,Saved to shared drive,2026-09-21 08:11,AP clerk
+INV-0215,Payment scheduled,2026-09-21 08:12,AP clerk
+INV-0233,Payment scheduled,2026-09-21 08:12,AP clerk
+INV-0286,Invoice received,2026-09-21 08:12,Supplier
+INV-0014,Invoice received,2026-09-21 08:14,Supplier
+INV-0064,Payment scheduled,2026-09-21 08:14,AP clerk
+INV-0181,Payment scheduled,2026-09-21 08:14,AP clerk
+INV-0160,Invoice received,2026-09-21 08:15,Supplier
+INV-0170,Payment scheduled,2026-09-21 08:15,AP clerk
+INV-0125,Payment scheduled,2026-09-21 08:17,AP clerk
+INV-0008,Invoice received,2026-09-21 08:18,Supplier
+INV-0107,Approved by finance,2026-09-21 08:18,Finance manager
+INV-0141,Invoice received,2026-09-21 08:18,Supplier
+INV-0165,Matched to PO and receipt,2026-09-21 08:19,AP clerk
+INV-0269,Payment scheduled,2026-09-21 08:19,AP clerk
+INV-0009,Invoice received,2026-09-21 08:20,Supplier
+INV-0182,Invoice received,2026-09-21 08:21,Supplier
+INV-0111,Payment scheduled,2026-09-21 08:23,AP clerk
+INV-0109,Entered in ERP,2026-09-21 08:26,AP clerk
+INV-0028,Approved by finance,2026-09-21 08:27,Finance manager
+INV-0077,Invoice received,2026-09-21 08:27,Supplier
+INV-0299,Invoice received,2026-09-21 08:28,Supplier
+INV-0179,Invoice received,2026-09-21 08:30,Supplier
+INV-0196,Invoice received,2026-09-21 08:30,Supplier
+INV-0275,Buyer replied,2026-09-21 08:32,Buyer
+INV-0059,Payment scheduled,2026-09-21 08:34,AP clerk
+INV-0118,Invoice received,2026-09-21 08:34,Supplier
+INV-0281,Invoice received,2026-09-21 08:34,Supplier
+INV-0150,Saved to shared drive,2026-09-21 08:35,AP clerk
+INV-0278,Invoice received,2026-09-21 08:36,Supplier
+INV-0272,Matched to PO and receipt,2026-09-21 08:37,AP clerk
+INV-0174,Invoice received,2026-09-21 08:38,Supplier
+INV-0004,Entered in ERP,2026-09-21 08:39,AP clerk
+INV-0024,Buyer replied,2026-09-21 08:41,Buyer
+INV-0176,Payment scheduled,2026-09-21 08:41,AP clerk
+INV-0218,Buyer replied,2026-09-21 08:41,Buyer
+INV-0232,Payment scheduled,2026-09-21 08:42,AP clerk
+INV-0216,Payment scheduled,2026-09-21 08:43,AP clerk
+INV-0120,Entered in ERP,2026-09-21 08:44,AP clerk
+INV-0253,Invoice received,2026-09-21 08:44,Supplier
+INV-0051,Entered in ERP,2026-09-21 08:46,AP clerk
+INV-0171,Payment scheduled,2026-09-21 08:46,AP clerk
+INV-0231,Saved to shared drive,2026-09-21 08:46,AP clerk
+INV-0117,Entered in ERP,2026-09-21 08:47,AP clerk
+INV-0225,Entered in ERP,2026-09-21 08:48,AP clerk
+INV-0283,Entered in ERP,2026-09-21 08:49,AP clerk
+INV-0273,Invoice received,2026-09-21 08:50,Supplier
+INV-0002,Buyer replied,2026-09-21 08:54,Buyer
+INV-0098,Invoice received,2026-09-21 08:54,Supplier
+INV-0276,Approved by finance,2026-09-21 08:54,Finance manager
+INV-0030,Entered in ERP,2026-09-21 08:56,AP clerk
+INV-0047,Approved by finance,2026-09-21 08:56,Finance manager
+INV-0255,Payment scheduled,2026-09-21 08:56,AP clerk
+INV-0131,Invoice received,2026-09-21 08:57,Supplier
+INV-0206,Approved by finance,2026-09-21 08:58,Finance manager
+INV-0048,Entered in ERP,2026-09-21 08:59,AP clerk
+INV-0146,Invoice received,2026-09-21 08:59,Supplier
+INV-0250,Query sent to buyer,2026-09-21 09:02,AP clerk
+INV-0004,Matched to PO and receipt,2026-09-21 09:37,AP clerk
+INV-0067,Matched to PO and receipt,2026-09-21 09:58,AP clerk
+INV-0199,Invoice received,2026-09-21 09:58,Supplier
+INV-0191,Matched to PO and receipt,2026-09-21 10:35,AP clerk
+INV-0117,Matched to PO and receipt,2026-09-21 10:36,AP clerk
+INV-0004,Query sent to buyer,2026-09-21 10:50,AP clerk
+INV-0051,Matched to PO and receipt,2026-09-21 10:59,AP clerk
+INV-0225,Matched to PO and receipt,2026-09-21 11:05,AP clerk
+INV-0098,Saved to shared drive,2026-09-21 11:13,AP clerk
+INV-0051,Query sent to buyer,2026-09-21 11:56,AP clerk
+INV-0014,Saved to shared drive,2026-09-21 12:07,AP clerk
+INV-0109,Matched to PO and receipt,2026-09-21 12:13,AP clerk
+INV-0283,Matched to PO and receipt,2026-09-21 12:17,AP clerk
+INV-0120,Matched to PO and receipt,2026-09-21 12:47,AP clerk
+INV-0199,Saved to shared drive,2026-09-21 12:58,AP clerk
+INV-0030,Matched to PO and receipt,2026-09-21 13:14,AP clerk
+INV-0283,Query sent to buyer,2026-09-21 13:24,AP clerk
+INV-0286,Saved to shared drive,2026-09-21 13:24,AP clerk
+INV-0024,Query sent to buyer,2026-09-21 13:48,AP clerk
+INV-0080,Saved to shared drive,2026-09-21 14:09,AP clerk
+INV-0048,Matched to PO and receipt,2026-09-21 14:51,AP clerk
+INV-0109,Query sent to buyer,2026-09-21 14:52,AP clerk
+INV-0124,Saved to shared drive,2026-09-21 15:01,AP clerk
+INV-0002,Matched to PO and receipt,2026-09-21 15:05,AP clerk
+INV-0090,Entered in ERP,2026-09-21 15:52,AP clerk
+INV-0275,Matched to PO and receipt,2026-09-21 15:53,AP clerk
+INV-0120,Query sent to buyer,2026-09-21 16:33,AP clerk
+INV-0077,Saved to shared drive,2026-09-21 16:48,AP clerk
+INV-0014,Entered in ERP,2026-09-21 17:04,AP clerk
+INV-0135,Entered in ERP,2026-09-21 17:18,AP clerk
+INV-0126,Saved to shared drive,2026-09-22 08:01,AP clerk
+INV-0225,Payment scheduled,2026-09-22 08:01,AP clerk
+INV-0236,Entered in ERP,2026-09-22 08:02,AP clerk
+INV-0182,Saved to shared drive,2026-09-22 08:03,AP clerk
+INV-0023,Invoice received,2026-09-22 08:05,Supplier
+INV-0028,Payment scheduled,2026-09-22 08:06,AP clerk
+INV-0218,Matched to PO and receipt,2026-09-22 08:06,AP clerk
+INV-0273,Saved to shared drive,2026-09-22 08:06,AP clerk
+INV-0053,Invoice received,2026-09-22 08:07,Supplier
+INV-0068,Payment scheduled,2026-09-22 08:07,AP clerk
+INV-0188,Invoice received,2026-09-22 08:07,Supplier
+INV-0050,Invoice received,2026-09-22 08:08,Supplier
+INV-0090,Matched to PO and receipt,2026-09-22 08:14,AP clerk
+INV-0009,Saved to shared drive,2026-09-22 08:15,AP clerk
+INV-0150,Entered in ERP,2026-09-22 08:15,AP clerk
+INV-0196,Saved to shared drive,2026-09-22 08:15,AP clerk
+INV-0264,Invoice received,2026-09-22 08:20,Supplier
+INV-0263,Invoice received,2026-09-22 08:21,Supplier
+INV-0299,Saved to shared drive,2026-09-22 08:21,AP clerk
+INV-0160,Saved to shared drive,2026-09-22 08:23,AP clerk
+INV-0278,Saved to shared drive,2026-09-22 08:23,AP clerk
+INV-0067,Payment scheduled,2026-09-22 08:26,AP clerk
+INV-0077,Entered in ERP,2026-09-22 08:26,AP clerk
+INV-0098,Entered in ERP,2026-09-22 08:26,AP clerk
+INV-0141,Saved to shared drive,2026-09-22 08:26,AP clerk
+INV-0231,Entered in ERP,2026-09-22 08:28,AP clerk
+INV-0229,Invoice received,2026-09-22 08:29,Supplier
+INV-0131,Saved to shared drive,2026-09-22 08:34,AP clerk
+INV-0135,Matched to PO and receipt,2026-09-22 08:35,AP clerk
+INV-0199,Entered in ERP,2026-09-22 08:35,AP clerk
+INV-0080,Entered in ERP,2026-09-22 08:37,AP clerk
+INV-0146,Saved to shared drive,2026-09-22 08:41,AP clerk
+INV-0189,Invoice received,2026-09-22 08:45,Supplier
+INV-0221,Saved to shared drive,2026-09-22 08:46,AP clerk
+INV-0014,Matched to PO and receipt,2026-09-22 08:47,AP clerk
+INV-0124,Entered in ERP,2026-09-22 08:53,AP clerk
+INV-0281,Saved to shared drive,2026-09-22 08:53,AP clerk
+INV-0122,Invoice received,2026-09-22 08:55,Supplier
+INV-0179,Saved to shared drive,2026-09-22 08:55,AP clerk
+INV-0008,Saved to shared drive,2026-09-22 08:56,AP clerk
+INV-0047,Payment scheduled,2026-09-22 08:58,AP clerk
+INV-0118,Saved to shared drive,2026-09-22 08:58,AP clerk
+INV-0244,Payment scheduled,2026-09-22 08:58,AP clerk
+INV-0286,Entered in ERP,2026-09-22 09:13,AP clerk
+INV-0090,Query sent to buyer,2026-09-22 09:25,AP clerk
+INV-0174,Saved to shared drive,2026-09-22 09:39,AP clerk
+INV-0191,Payment scheduled,2026-09-22 09:53,AP clerk
+INV-0150,Matched to PO and receipt,2026-09-22 10:07,AP clerk
+INV-0080,Matched to PO and receipt,2026-09-22 10:42,AP clerk
+INV-0199,Matched to PO and receipt,2026-09-22 10:44,AP clerk
+INV-0131,Entered in ERP,2026-09-22 10:48,AP clerk
+INV-0077,Matched to PO and receipt,2026-09-22 11:28,AP clerk
+INV-0179,Entered in ERP,2026-09-22 11:31,AP clerk
+INV-0124,Matched to PO and receipt,2026-09-22 11:38,AP clerk
+INV-0253,Saved to shared drive,2026-09-22 11:55,AP clerk
+INV-0053,Saved to shared drive,2026-09-22 12:12,AP clerk
+INV-0141,Entered in ERP,2026-09-22 12:23,AP clerk
+INV-0009,Entered in ERP,2026-09-22 12:26,AP clerk
+INV-0236,Matched to PO and receipt,2026-09-22 12:28,AP clerk
+INV-0048,Payment scheduled,2026-09-22 13:06,AP clerk
+INV-0276,Payment scheduled,2026-09-22 13:30,AP clerk
+INV-0009,Matched to PO and receipt,2026-09-22 13:48,AP clerk
+INV-0273,Entered in ERP,2026-09-22 13:52,AP clerk
+INV-0098,Matched to PO and receipt,2026-09-22 14:01,AP clerk
+INV-0050,Saved to shared drive,2026-09-22 14:02,AP clerk
+INV-0126,Entered in ERP,2026-09-22 14:04,AP clerk
+INV-0236,Query sent to buyer,2026-09-22 14:16,AP clerk
+INV-0231,Matched to PO and receipt,2026-09-22 14:23,AP clerk
+INV-0023,Saved to shared drive,2026-09-22 15:04,AP clerk
+INV-0286,Matched to PO and receipt,2026-09-22 15:07,AP clerk
+INV-0124,Query sent to buyer,2026-09-22 15:14,AP clerk
+INV-0131,Matched to PO and receipt,2026-09-22 15:43,AP clerk
+INV-0278,Entered in ERP,2026-09-22 15:49,AP clerk
+INV-0273,Matched to PO and receipt,2026-09-22 16:12,AP clerk
+INV-0182,Entered in ERP,2026-09-22 16:22,AP clerk
+INV-0188,Saved to shared drive,2026-09-22 16:40,AP clerk
+INV-0179,Matched to PO and receipt,2026-09-22 16:43,AP clerk
+INV-0196,Entered in ERP,2026-09-22 16:43,AP clerk
+INV-0273,Query sent to buyer,2026-09-22 16:47,AP clerk
+INV-0300,Invoice received,2026-09-22 16:57,Supplier
+INV-0009,Query sent to buyer,2026-09-22 16:59,AP clerk
+INV-0289,Invoice received,2026-09-22 17:09,Supplier
+INV-0160,Entered in ERP,2026-09-23 08:01,AP clerk
+INV-0206,Payment scheduled,2026-09-23 08:02,AP clerk
+INV-0023,Entered in ERP,2026-09-23 08:03,AP clerk
+INV-0106,Invoice received,2026-09-23 08:04,Supplier
+INV-0253,Entered in ERP,2026-09-23 08:04,AP clerk
+INV-0148,Invoice received,2026-09-23 08:09,Supplier
+INV-0188,Entered in ERP,2026-09-23 08:11,AP clerk
+INV-0141,Matched to PO and receipt,2026-09-23 08:12,AP clerk
+INV-0008,Entered in ERP,2026-09-23 08:13,AP clerk
+INV-0263,Saved to shared drive,2026-09-23 08:13,AP clerk
+INV-0053,Entered in ERP,2026-09-23 08:14,AP clerk
+INV-0098,Payment scheduled,2026-09-23 08:24,AP clerk
+INV-0123,Invoice received,2026-09-23 08:24,Supplier
+INV-0299,Entered in ERP,2026-09-23 08:27,AP clerk
+INV-0146,Entered in ERP,2026-09-23 08:29,AP clerk
+INV-0286,Query sent to buyer,2026-09-23 08:31,AP clerk
+INV-0230,Invoice received,2026-09-23 08:32,Supplier
+INV-0077,Payment scheduled,2026-09-23 08:33,AP clerk
+INV-0118,Entered in ERP,2026-09-23 08:34,AP clerk
+INV-0196,Matched to PO and receipt,2026-09-23 08:34,AP clerk
+INV-0174,Entered in ERP,2026-09-23 08:35,AP clerk
+INV-0193,Invoice received,2026-09-23 08:36,Supplier
+INV-0278,Matched to PO and receipt,2026-09-23 08:36,AP clerk
+INV-0189,Saved to shared drive,2026-09-23 08:37,AP clerk
+INV-0107,Payment scheduled,2026-09-23 08:43,AP clerk
+INV-0126,Matched to PO and receipt,2026-09-23 08:43,AP clerk
+INV-0281,Entered in ERP,2026-09-23 08:44,AP clerk
+INV-0182,Matched to PO and receipt,2026-09-23 08:45,AP clerk
+INV-0235,Invoice received,2026-09-23 08:46,Supplier
+INV-0014,Approved by finance,2026-09-23 08:47,Finance manager
+INV-0229,Saved to shared drive,2026-09-23 08:47,AP clerk
+INV-0221,Entered in ERP,2026-09-23 08:55,AP clerk
+INV-0264,Saved to shared drive,2026-09-23 08:55,AP clerk
+INV-0050,Entered in ERP,2026-09-23 08:59,AP clerk
+INV-0300,Saved to shared drive,2026-09-23 09:11,AP clerk
+INV-0080,Approved by finance,2026-09-23 09:23,Finance manager
+INV-0146,Matched to PO and receipt,2026-09-23 10:02,AP clerk
+INV-0172,Invoice received,2026-09-23 10:13,Supplier
+INV-0263,Entered in ERP,2026-09-23 10:55,AP clerk
+INV-0023,Matched to PO and receipt,2026-09-23 11:02,AP clerk
+INV-0189,Entered in ERP,2026-09-23 11:16,AP clerk
+INV-0253,Matched to PO and receipt,2026-09-23 11:19,AP clerk
+INV-0118,Matched to PO and receipt,2026-09-23 11:24,AP clerk
+INV-0150,Payment scheduled,2026-09-23 11:53,AP clerk
+INV-0118,Query sent to buyer,2026-09-23 12:01,AP clerk
+INV-0122,Saved to shared drive,2026-09-23 12:12,AP clerk
+INV-0196,Query sent to buyer,2026-09-23 12:26,AP clerk
+INV-0050,Matched to PO and receipt,2026-09-23 13:15,AP clerk
+INV-0221,Matched to PO and receipt,2026-09-23 13:16,AP clerk
+INV-0174,Matched to PO and receipt,2026-09-23 13:17,AP clerk
+INV-0165,Approved by finance,2026-09-23 13:26,Finance manager
+INV-0120,Buyer replied,2026-09-23 13:29,Buyer
+INV-0188,Matched to PO and receipt,2026-09-23 13:45,AP clerk
+INV-0122,Entered in ERP,2026-09-23 14:02,AP clerk
+INV-0053,Matched to PO and receipt,2026-09-23 14:12,AP clerk
+INV-0099,Invoice received,2026-09-23 14:25,Supplier
+INV-0160,Matched to PO and receipt,2026-09-23 14:55,AP clerk
+INV-0120,Query sent to buyer,2026-09-23 14:57,AP clerk
+INV-0137,Invoice received,2026-09-23 15:25,Supplier
+INV-0299,Matched to PO and receipt,2026-09-23 15:29,AP clerk
+INV-0078,Invoice received,2026-09-23 15:37,Supplier
+INV-0008,Matched to PO and receipt,2026-09-23 16:09,AP clerk
+INV-0281,Matched to PO and receipt,2026-09-23 16:22,AP clerk
+INV-0080,Payment scheduled,2026-09-23 16:45,AP clerk
+INV-0189,Matched to PO and receipt,2026-09-23 17:48,AP clerk
+INV-0188,Payment scheduled,2026-09-24 08:00,AP clerk
+INV-0084,Invoice received,2026-09-24 08:05,Supplier
+INV-0009,Buyer replied,2026-09-24 08:06,Buyer
+INV-0099,Saved to shared drive,2026-09-24 08:11,AP clerk
+INV-0117,Approved by finance,2026-09-24 08:13,Finance manager
+INV-0253,Payment scheduled,2026-09-24 08:13,AP clerk
+INV-0014,Payment scheduled,2026-09-24 08:15,AP clerk
+INV-0137,Saved to shared drive,2026-09-24 08:15,AP clerk
+INV-0300,Entered in ERP,2026-09-24 08:15,AP clerk
+INV-0095,Invoice received,2026-09-24 08:16,Supplier
+INV-0289,Saved to shared drive,2026-09-24 08:16,AP clerk
+INV-0160,Query sent to buyer,2026-09-24 08:18,AP clerk
+INV-0030,Payment scheduled,2026-09-24 08:19,AP clerk
+INV-0187,Invoice received,2026-09-24 08:19,Supplier
+INV-0172,Saved to shared drive,2026-09-24 08:20,AP clerk
+INV-0106,Saved to shared drive,2026-09-24 08:23,AP clerk
+INV-0272,Approved by finance,2026-09-24 08:26,Finance manager
+INV-0230,Saved to shared drive,2026-09-24 08:28,AP clerk
+INV-0231,Payment scheduled,2026-09-24 08:28,AP clerk
+INV-0263,Matched to PO and receipt,2026-09-24 08:30,AP clerk
+INV-0122,Matched to PO and receipt,2026-09-24 08:31,AP clerk
+INV-0264,Entered in ERP,2026-09-24 08:31,AP clerk
+INV-0141,Payment scheduled,2026-09-24 08:41,AP clerk
+INV-0229,Entered in ERP,2026-09-24 08:41,AP clerk
+INV-0135,Payment scheduled,2026-09-24 08:42,AP clerk
+INV-0002,Payment scheduled,2026-09-24 08:45,AP clerk
+INV-0078,Saved to shared drive,2026-09-24 08:45,AP clerk
+INV-0275,Payment scheduled,2026-09-24 08:47,AP clerk
+INV-0123,Saved to shared drive,2026-09-24 08:49,AP clerk
+INV-0051,Buyer replied,2026-09-24 08:57,Buyer
+INV-0109,Buyer replied,2026-09-24 08:57,Buyer
+INV-0201,Invoice received,2026-09-24 09:05,Supplier
+INV-0218,Payment scheduled,2026-09-24 09:25,AP clerk
+INV-0264,Matched to PO and receipt,2026-09-24 09:25,AP clerk
+INV-0148,Saved to shared drive,2026-09-24 10:01,AP clerk
+INV-0024,Buyer replied,2026-09-24 10:48,Buyer
+INV-0009,Query sent to buyer,2026-09-24 11:03,AP clerk
+INV-0099,Entered in ERP,2026-09-24 11:06,AP clerk
+INV-0026,Invoice received,2026-09-24 11:10,Supplier
+INV-0300,Matched to PO and receipt,2026-09-24 11:22,AP clerk
+INV-0289,Entered in ERP,2026-09-24 11:35,AP clerk
+INV-0169,Invoice received,2026-09-24 12:14,Supplier
+INV-0299,Payment scheduled,2026-09-24 12:30,AP clerk
+INV-0193,Saved to shared drive,2026-09-24 13:06,AP clerk
+INV-0281,Payment scheduled,2026-09-24 13:07,AP clerk
+INV-0023,Payment scheduled,2026-09-24 13:12,AP clerk
+INV-0078,Entered in ERP,2026-09-24 13:38,AP clerk
+INV-0109,Query sent to buyer,2026-09-24 13:46,AP clerk
+INV-0051,Query sent to buyer,2026-09-24 14:07,AP clerk
+INV-0229,Matched to PO and receipt,2026-09-24 14:29,AP clerk
+INV-0099,Matched to PO and receipt,2026-09-24 14:33,AP clerk
+INV-0184,Invoice received,2026-09-24 14:37,Supplier
+INV-0235,Saved to shared drive,2026-09-24 14:43,AP clerk
+INV-0210,Invoice received,2026-09-24 14:51,Supplier
+INV-0289,Matched to PO and receipt,2026-09-24 14:52,AP clerk
+INV-0035,Invoice received,2026-09-24 15:24,Supplier
+INV-0122,Payment scheduled,2026-09-24 15:47,AP clerk
+INV-0137,Entered in ERP,2026-09-24 15:50,AP clerk
+INV-0199,Payment scheduled,2026-09-24 16:30,AP clerk
+INV-0174,Payment scheduled,2026-09-24 16:54,AP clerk
+INV-0131,Payment scheduled,2026-09-24 17:36,AP clerk
+INV-0024,Matched to PO and receipt,2026-09-24 17:42,AP clerk
+INV-0008,Payment scheduled,2026-09-24 17:45,AP clerk
+INV-0126,Payment scheduled,2026-09-25 08:01,AP clerk
+INV-0093,Invoice received,2026-09-25 08:03,Supplier
+INV-0165,Payment scheduled,2026-09-25 08:03,AP clerk
+INV-0172,Entered in ERP,2026-09-25 08:03,AP clerk
+INV-0250,Buyer replied,2026-09-25 08:03,Buyer
+INV-0221,Payment scheduled,2026-09-25 08:09,AP clerk
+INV-0084,Saved to shared drive,2026-09-25 08:11,AP clerk
+INV-0026,Saved to shared drive,2026-09-25 08:13,AP clerk
+INV-0184,Saved to shared drive,2026-09-25 08:15,AP clerk
+INV-0189,Payment scheduled,2026-09-25 08:15,AP clerk
+INV-0004,Buyer replied,2026-09-25 08:20,Buyer
+INV-0169,Saved to shared drive,2026-09-25 08:20,AP clerk
+INV-0078,Matched to PO and receipt,2026-09-25 08:24,AP clerk
+INV-0117,Payment scheduled,2026-09-25 08:25,AP clerk
+INV-0210,Saved to shared drive,2026-09-25 08:25,AP clerk
+INV-0106,Entered in ERP,2026-09-25 08:27,AP clerk
+INV-0035,Saved to shared drive,2026-09-25 08:28,AP clerk
+INV-0182,Payment scheduled,2026-09-25 08:29,AP clerk
+INV-0146,Payment scheduled,2026-09-25 08:31,AP clerk
+INV-0235,Entered in ERP,2026-09-25 08:32,AP clerk
+INV-0137,Matched to PO and receipt,2026-09-25 08:34,AP clerk
+INV-0197,Invoice received,2026-09-25 08:36,Supplier
+INV-0060,Invoice received,2026-09-25 08:38,Supplier
+INV-0099,Payment scheduled,2026-09-25 08:39,AP clerk
+INV-0193,Entered in ERP,2026-09-25 08:40,AP clerk
+INV-0201,Saved to shared drive,2026-09-25 08:40,AP clerk
+INV-0123,Entered in ERP,2026-09-25 08:41,AP clerk
+INV-0236,Buyer replied,2026-09-25 08:44,Buyer
+INV-0230,Entered in ERP,2026-09-25 08:45,AP clerk
+INV-0300,Payment scheduled,2026-09-25 08:45,AP clerk
+INV-0022,Invoice received,2026-09-25 08:46,Supplier
+INV-0118,Buyer replied,2026-09-25 08:51,Buyer
+INV-0148,Entered in ERP,2026-09-25 08:55,AP clerk
+INV-0179,Payment scheduled,2026-09-25 08:55,AP clerk
+INV-0019,Invoice received,2026-09-25 08:57,Supplier
+INV-0084,Entered in ERP,2026-09-25 10:07,AP clerk
+INV-0123,Matched to PO and receipt,2026-09-25 10:15,AP clerk
+INV-0250,Matched to PO and receipt,2026-09-25 11:15,AP clerk
+INV-0187,Saved to shared drive,2026-09-25 11:54,AP clerk
+INV-0004,Matched to PO and receipt,2026-09-25 12:09,AP clerk
+INV-0201,Entered in ERP,2026-09-25 12:22,AP clerk
+INV-0235,Matched to PO and receipt,2026-09-25 12:54,AP clerk
+INV-0209,Invoice received,2026-09-25 12:56,Supplier
+INV-0172,Matched to PO and receipt,2026-09-25 13:15,AP clerk
+INV-0230,Matched to PO and receipt,2026-09-25 13:32,AP clerk
+INV-0211,Invoice received,2026-09-25 13:35,Supplier
+INV-0118,Matched to PO and receipt,2026-09-25 13:44,AP clerk
+INV-0095,Saved to shared drive,2026-09-25 14:00,AP clerk
+INV-0097,Invoice received,2026-09-25 14:02,Supplier
+INV-0084,Matched to PO and receipt,2026-09-25 14:10,AP clerk
+INV-0148,Matched to PO and receipt,2026-09-25 14:13,AP clerk
+INV-0169,Entered in ERP,2026-09-25 14:29,AP clerk
+INV-0201,Matched to PO and receipt,2026-09-25 14:31,AP clerk
+INV-0026,Entered in ERP,2026-09-25 14:46,AP clerk
+INV-0236,Matched to PO and receipt,2026-09-25 14:53,AP clerk
+INV-0106,Matched to PO and receipt,2026-09-25 15:10,AP clerk
+INV-0278,Payment scheduled,2026-09-25 15:13,AP clerk
+INV-0193,Matched to PO and receipt,2026-09-25 15:18,AP clerk
+INV-0209,Saved to shared drive,2026-09-25 15:21,AP clerk
+INV-0050,Payment scheduled,2026-09-25 15:31,AP clerk
+INV-0178,Invoice received,2026-09-25 16:20,Supplier
+INV-0210,Entered in ERP,2026-09-25 16:28,AP clerk
+INV-0095,Entered in ERP,2026-09-25 16:56,AP clerk
+INV-0045,Invoice received,2026-09-25 17:00,Supplier
+INV-0026,Matched to PO and receipt,2026-09-25 17:04,AP clerk
+INV-0184,Entered in ERP,2026-09-25 17:23,AP clerk
+INV-0201,Query sent to buyer,2026-09-25 17:30,AP clerk
+INV-0283,Buyer replied,2026-09-25 17:56,Buyer
+INV-0051,Buyer replied,2026-09-28 08:02,Buyer
+INV-0022,Saved to shared drive,2026-09-28 08:03,AP clerk
+INV-0116,Invoice received,2026-09-28 08:03,Supplier
+INV-0264,Payment scheduled,2026-09-28 08:04,AP clerk
+INV-0298,Invoice received,2026-09-28 08:04,Supplier
+INV-0090,Buyer replied,2026-09-28 08:09,Buyer
+INV-0167,Invoice received,2026-09-28 08:09,Supplier
+INV-0288,Invoice received,2026-09-28 08:09,Supplier
+INV-0147,Invoice received,2026-09-28 08:10,Supplier
+INV-0185,Invoice received,2026-09-28 08:11,Supplier
+INV-0220,Invoice received,2026-09-28 08:11,Supplier
+INV-0257,Invoice received,2026-09-28 08:12,Supplier
+INV-0263,Payment scheduled,2026-09-28 08:13,AP clerk
+INV-0286,Buyer replied,2026-09-28 08:13,Buyer
+INV-0254,Invoice received,2026-09-28 08:14,Supplier
+INV-0035,Entered in ERP,2026-09-28 08:15,AP clerk
+INV-0115,Invoice received,2026-09-28 08:15,Supplier
+INV-0198,Invoice received,2026-09-28 08:15,Supplier
+INV-0086,Invoice received,2026-09-28 08:17,Supplier
+INV-0219,Invoice received,2026-09-28 08:17,Supplier
+INV-0289,Payment scheduled,2026-09-28 08:17,AP clerk
+INV-0097,Saved to shared drive,2026-09-28 08:18,AP clerk
+INV-0046,Invoice received,2026-09-28 08:19,Supplier
+INV-0078,Payment scheduled,2026-09-28 08:19,AP clerk
+INV-0186,Invoice received,2026-09-28 08:21,Supplier
+INV-0172,Payment scheduled,2026-09-28 08:23,AP clerk
+INV-0273,Buyer replied,2026-09-28 08:23,Buyer
+INV-0148,Payment scheduled,2026-09-28 08:24,AP clerk
+INV-0230,Payment scheduled,2026-09-28 08:24,AP clerk
+INV-0024,Payment scheduled,2026-09-28 08:25,AP clerk
+INV-0193,Payment scheduled,2026-09-28 08:25,AP clerk
+INV-0210,Matched to PO and receipt,2026-09-28 08:25,AP clerk
+INV-0137,Payment scheduled,2026-09-28 08:27,AP clerk
+INV-0195,Invoice received,2026-09-28 08:27,Supplier
+INV-0128,Invoice received,2026-09-28 08:28,Supplier
+INV-0187,Entered in ERP,2026-09-28 08:29,AP clerk
+INV-0211,Saved to shared drive,2026-09-28 08:29,AP clerk
+INV-0247,Invoice received,2026-09-28 08:30,Supplier
+INV-0004,Payment scheduled,2026-09-28 08:31,AP clerk
+INV-0026,Payment scheduled,2026-09-28 08:31,AP clerk
+INV-0076,Invoice received,2026-09-28 08:31,Supplier
+INV-0272,Payment scheduled,2026-09-28 08:31,AP clerk
+INV-0184,Matched to PO and receipt,2026-09-28 08:32,AP clerk
+INV-0106,Payment scheduled,2026-09-28 08:33,AP clerk
+INV-0039,Invoice received,2026-09-28 08:34,Supplier
+INV-0124,Buyer replied,2026-09-28 08:34,Buyer
+INV-0009,Buyer replied,2026-09-28 08:37,Buyer
+INV-0197,Saved to shared drive,2026-09-28 08:37,AP clerk
+INV-0010,Invoice received,2026-09-28 08:38,Supplier
+INV-0123,Payment scheduled,2026-09-28 08:38,AP clerk
+INV-0209,Entered in ERP,2026-09-28 08:38,AP clerk
+INV-0060,Saved to shared drive,2026-09-28 08:39,AP clerk
+INV-0038,Invoice received,2026-09-28 08:40,Supplier
+INV-0032,Invoice received,2026-09-28 08:41,Supplier
+INV-0091,Invoice received,2026-09-28 08:41,Supplier
+INV-0265,Invoice received,2026-09-28 08:42,Supplier
+INV-0157,Invoice received,2026-09-28 08:43,Supplier
+INV-0196,Buyer replied,2026-09-28 08:43,Buyer
+INV-0190,Invoice received,2026-09-28 08:44,Supplier
+INV-0274,Invoice received,2026-09-28 08:44,Supplier
+INV-0021,Invoice received,2026-09-28 08:45,Supplier
+INV-0109,Buyer replied,2026-09-28 08:45,Buyer
+INV-0229,Approved by finance,2026-09-28 08:45,Finance manager
+INV-0295,Invoice received,2026-09-28 08:45,Supplier
+INV-0169,Matched to PO and receipt,2026-09-28 08:46,AP clerk
+INV-0178,Saved to shared drive,2026-09-28 08:49,AP clerk
+INV-0053,Payment scheduled,2026-09-28 08:50,AP clerk
+INV-0019,Saved to shared drive,2026-09-28 08:51,AP clerk
+INV-0088,Invoice received,2026-09-28 08:51,Supplier
+INV-0120,Buyer replied,2026-09-28 08:51,Buyer
+INV-0045,Saved to shared drive,2026-09-28 08:53,AP clerk
+INV-0118,Payment scheduled,2026-09-28 08:53,AP clerk
+INV-0236,Payment scheduled,2026-09-28 08:53,AP clerk
+INV-0268,Invoice received,2026-09-28 08:53,Supplier
+INV-0082,Invoice received,2026-09-28 08:54,Supplier
+INV-0093,Saved to shared drive,2026-09-28 08:55,AP clerk
+INV-0235,Payment scheduled,2026-09-28 08:55,AP clerk
+INV-0132,Invoice received,2026-09-28 08:56,Supplier
+INV-0283,Matched to PO and receipt,2026-09-28 08:56,AP clerk
+INV-0084,Payment scheduled,2026-09-28 08:58,AP clerk
+INV-0095,Matched to PO and receipt,2026-09-28 08:59,AP clerk
+INV-0250,Approved by finance,2026-09-28 08:59,Finance manager
+INV-0090,Query sent to buyer,2026-09-28 09:28,AP clerk
+INV-0124,Matched to PO and receipt,2026-09-28 09:37,AP clerk
+INV-0187,Matched to PO and receipt,2026-09-28 09:37,AP clerk
+INV-0196,Query sent to buyer,2026-09-28 09:54,AP clerk
+INV-0009,Matched to PO and receipt,2026-09-28 10:20,AP clerk
+INV-0210,Query sent to buyer,2026-09-28 10:44,AP clerk
+INV-0298,Saved to shared drive,2026-09-28 11:01,AP clerk
+INV-0219,Saved to shared drive,2026-09-28 11:14,AP clerk
+INV-0035,Matched to PO and receipt,2026-09-28 11:17,AP clerk
+INV-0266,Invoice received,2026-09-28 11:26,Supplier
+INV-0082,Saved to shared drive,2026-09-28 11:47,AP clerk
+INV-0295,Saved to shared drive,2026-09-28 11:58,AP clerk
+INV-0273,Matched to PO and receipt,2026-09-28 12:03,AP clerk
+INV-0209,Matched to PO and receipt,2026-09-28 12:42,AP clerk
+INV-0280,Invoice received,2026-09-28 12:42,Supplier
+INV-0229,Payment scheduled,2026-09-28 12:59,AP clerk
+INV-0109,Matched to PO and receipt,2026-09-28 13:52,AP clerk
+INV-0257,Saved to shared drive,2026-09-28 13:54,AP clerk
+INV-0286,Query sent to buyer,2026-09-28 14:01,AP clerk
+INV-0160,Buyer replied,2026-09-28 14:11,Buyer
+INV-0045,Entered in ERP,2026-09-28 14:29,AP clerk
+INV-0051,Matched to PO and receipt,2026-09-28 14:40,AP clerk
+INV-0295,Entered in ERP,2026-09-28 16:11,AP clerk
+INV-0160,Matched to PO and receipt,2026-09-28 16:26,AP clerk
+INV-0211,Entered in ERP,2026-09-28 16:43,AP clerk
+INV-0021,Saved to shared drive,2026-09-28 16:55,AP clerk
+INV-0093,Entered in ERP,2026-09-28 17:00,AP clerk
+INV-0201,Buyer replied,2026-09-28 17:05,Buyer
+INV-0128,Saved to shared drive,2026-09-28 17:09,AP clerk
+INV-0045,Matched to PO and receipt,2026-09-28 17:10,AP clerk
+INV-0220,Saved to shared drive,2026-09-28 17:11,AP clerk
+INV-0088,Saved to shared drive,2026-09-28 17:23,AP clerk
+INV-0120,Matched to PO and receipt,2026-09-28 17:41,AP clerk
+INV-0093,Matched to PO and receipt,2026-09-29 08:02,AP clerk
+INV-0265,Saved to shared drive,2026-09-29 08:02,AP clerk
+INV-0097,Entered in ERP,2026-09-29 08:04,AP clerk
+INV-0220,Entered in ERP,2026-09-29 08:04,AP clerk
+INV-0197,Entered in ERP,2026-09-29 08:05,AP clerk
+INV-0091,Saved to shared drive,2026-09-29 08:06,AP clerk
+INV-0185,Saved to shared drive,2026-09-29 08:06,AP clerk
+INV-0076,Saved to shared drive,2026-09-29 08:07,AP clerk
+INV-0209,Payment scheduled,2026-09-29 08:07,AP clerk
+INV-0283,Payment scheduled,2026-09-29 08:07,AP clerk
+INV-0090,Buyer replied,2026-09-29 08:09,Buyer
+INV-0257,Entered in ERP,2026-09-29 08:09,AP clerk
+INV-0195,Saved to shared drive,2026-09-29 08:11,AP clerk
+INV-0086,Saved to shared drive,2026-09-29 08:12,AP clerk
+INV-0021,Entered in ERP,2026-09-29 08:13,AP clerk
+INV-0022,Entered in ERP,2026-09-29 08:14,AP clerk
+INV-0147,Saved to shared drive,2026-09-29 08:14,AP clerk
+INV-0167,Saved to shared drive,2026-09-29 08:15,AP clerk
+INV-0250,Payment scheduled,2026-09-29 08:15,AP clerk
+INV-0268,Saved to shared drive,2026-09-29 08:15,AP clerk
+INV-0038,Saved to shared drive,2026-09-29 08:16,AP clerk
+INV-0247,Saved to shared drive,2026-09-29 08:18,AP clerk
+INV-0190,Saved to shared drive,2026-09-29 08:20,AP clerk
+INV-0217,Invoice received,2026-09-29 08:22,Supplier
+INV-0295,Matched to PO and receipt,2026-09-29 08:23,AP clerk
+INV-0082,Entered in ERP,2026-09-29 08:24,AP clerk
+INV-0088,Entered in ERP,2026-09-29 08:24,AP clerk
+INV-0219,Entered in ERP,2026-09-29 08:25,AP clerk
+INV-0201,Query sent to buyer,2026-09-29 08:26,AP clerk
+INV-0239,Invoice received,2026-09-29 08:26,Supplier
+INV-0178,Entered in ERP,2026-09-29 08:29,AP clerk
+INV-0060,Entered in ERP,2026-09-29 08:35,AP clerk
+INV-0254,Saved to shared drive,2026-09-29 08:35,AP clerk
+INV-0157,Saved to shared drive,2026-09-29 08:36,AP clerk
+INV-0198,Saved to shared drive,2026-09-29 08:36,AP clerk
+INV-0226,Invoice received,2026-09-29 08:36,Supplier
+INV-0046,Saved to shared drive,2026-09-29 08:38,AP clerk
+INV-0266,Saved to shared drive,2026-09-29 08:39,AP clerk
+INV-0298,Entered in ERP,2026-09-29 08:40,AP clerk
+INV-0274,Saved to shared drive,2026-09-29 08:42,AP clerk
+INV-0049,Invoice received,2026-09-29 08:44,Supplier
+INV-0187,Payment scheduled,2026-09-29 08:50,AP clerk
+INV-0211,Matched to PO and receipt,2026-09-29 08:51,AP clerk
+INV-0257,Matched to PO and receipt,2026-09-29 08:52,AP clerk
+INV-0019,Entered in ERP,2026-09-29 08:54,AP clerk
+INV-0037,Invoice received,2026-09-29 08:58,Supplier
+INV-0039,Saved to shared drive,2026-09-29 09:00,AP clerk
+INV-0185,Entered in ERP,2026-09-29 09:07,AP clerk
+INV-0022,Matched to PO and receipt,2026-09-29 09:22,AP clerk
+INV-0076,Entered in ERP,2026-09-29 09:31,AP clerk
+INV-0186,Saved to shared drive,2026-09-29 09:40,AP clerk
+INV-0265,Entered in ERP,2026-09-29 09:51,AP clerk
+INV-0060,Matched to PO and receipt,2026-09-29 09:59,AP clerk
+INV-0021,Matched to PO and receipt,2026-09-29 10:11,AP clerk
+INV-0288,Saved to shared drive,2026-09-29 10:34,AP clerk
+INV-0091,Entered in ERP,2026-09-29 10:41,AP clerk
+INV-0178,Matched to PO and receipt,2026-09-29 10:48,AP clerk
+INV-0010,Saved to shared drive,2026-09-29 10:49,AP clerk
+INV-0219,Matched to PO and receipt,2026-09-29 10:54,AP clerk
+INV-0038,Entered in ERP,2026-09-29 10:57,AP clerk
+INV-0019,Matched to PO and receipt,2026-09-29 11:06,AP clerk
+INV-0032,Saved to shared drive,2026-09-29 11:13,AP clerk
+INV-0132,Saved to shared drive,2026-09-29 11:13,AP clerk
+INV-0115,Saved to shared drive,2026-09-29 11:19,AP clerk
+INV-0128,Entered in ERP,2026-09-29 11:23,AP clerk
+INV-0039,Entered in ERP,2026-09-29 11:35,AP clerk
+INV-0185,Matched to PO and receipt,2026-09-29 11:35,AP clerk
+INV-0082,Matched to PO and receipt,2026-09-29 11:44,AP clerk
+INV-0220,Matched to PO and receipt,2026-09-29 11:49,AP clerk
+INV-0038,Matched to PO and receipt,2026-09-29 11:52,AP clerk
+INV-0091,Matched to PO and receipt,2026-09-29 11:54,AP clerk
+INV-0211,Query sent to buyer,2026-09-29 12:24,AP clerk
+INV-0197,Matched to PO and receipt,2026-09-29 13:26,AP clerk
+INV-0076,Matched to PO and receipt,2026-09-29 13:45,AP clerk
+INV-0116,Saved to shared drive,2026-09-29 13:51,AP clerk
+INV-0090,Matched to PO and receipt,2026-09-29 14:07,AP clerk
+INV-0046,Entered in ERP,2026-09-29 14:16,AP clerk
+INV-0266,Entered in ERP,2026-09-29 14:23,AP clerk
+INV-0280,Saved to shared drive,2026-09-29 14:55,AP clerk
+INV-0298,Matched to PO and receipt,2026-09-29 14:56,AP clerk
+INV-0266,Matched to PO and receipt,2026-09-29 15:19,AP clerk
+INV-0115,Entered in ERP,2026-09-29 15:31,AP clerk
+INV-0265,Matched to PO and receipt,2026-09-29 15:37,AP clerk
+INV-0097,Matched to PO and receipt,2026-09-29 15:39,AP clerk
+INV-0088,Matched to PO and receipt,2026-09-29 16:04,AP clerk
+INV-0128,Matched to PO and receipt,2026-09-29 16:36,AP clerk
+INV-0019,Payment scheduled,2026-09-29 16:43,AP clerk
+INV-0195,Entered in ERP,2026-09-29 16:44,AP clerk
+INV-0010,Entered in ERP,2026-09-29 17:06,AP clerk
+INV-0046,Matched to PO and receipt,2026-09-30 08:00,AP clerk
+INV-0049,Saved to shared drive,2026-09-30 08:00,AP clerk
+INV-0268,Entered in ERP,2026-09-30 08:03,AP clerk
+INV-0186,Entered in ERP,2026-09-30 08:05,AP clerk
+INV-0009,Payment scheduled,2026-09-30 08:06,AP clerk
+INV-0032,Entered in ERP,2026-09-30 08:07,AP clerk
+INV-0167,Entered in ERP,2026-09-30 08:07,AP clerk
+INV-0195,Matched to PO and receipt,2026-09-30 08:07,AP clerk
+INV-0076,Payment scheduled,2026-09-30 08:09,AP clerk
+INV-0157,Entered in ERP,2026-09-30 08:09,AP clerk
+INV-0120,Payment scheduled,2026-09-30 08:11,AP clerk
+INV-0082,Payment scheduled,2026-09-30 08:12,AP clerk
+INV-0184,Payment scheduled,2026-09-30 08:13,AP clerk
+INV-0226,Saved to shared drive,2026-09-30 08:13,AP clerk
+INV-0239,Saved to shared drive,2026-09-30 08:13,AP clerk
+INV-0097,Query sent to buyer,2026-09-30 08:14,AP clerk
+INV-0288,Entered in ERP,2026-09-30 08:15,AP clerk
+INV-0086,Entered in ERP,2026-09-30 08:16,AP clerk
+INV-0124,Payment scheduled,2026-09-30 08:20,AP clerk
+INV-0247,Entered in ERP,2026-09-30 08:22,AP clerk
+INV-0190,Entered in ERP,2026-09-30 08:23,AP clerk
+INV-0147,Entered in ERP,2026-09-30 08:27,AP clerk
+INV-0274,Entered in ERP,2026-09-30 08:28,AP clerk
+INV-0039,Matched to PO and receipt,2026-09-30 08:30,AP clerk
+INV-0257,Payment scheduled,2026-09-30 08:32,AP clerk
+INV-0132,Entered in ERP,2026-09-30 08:35,AP clerk
+INV-0266,Payment scheduled,2026-09-30 08:35,AP clerk
+INV-0196,Buyer replied,2026-09-30 08:41,Buyer
+INV-0010,Matched to PO and receipt,2026-09-30 08:42,AP clerk
+INV-0035,Payment scheduled,2026-09-30 08:43,AP clerk
+INV-0093,Payment scheduled,2026-09-30 08:46,AP clerk
+INV-0051,Payment scheduled,2026-09-30 08:47,AP clerk
+INV-0116,Entered in ERP,2026-09-30 08:48,AP clerk
+INV-0198,Entered in ERP,2026-09-30 08:50,AP clerk
+INV-0160,Payment scheduled,2026-09-30 08:53,AP clerk
+INV-0254,Entered in ERP,2026-09-30 08:53,AP clerk
+INV-0115,Matched to PO and receipt,2026-09-30 08:54,AP clerk
+INV-0038,Payment scheduled,2026-09-30 08:55,AP clerk
+INV-0220,Payment scheduled,2026-09-30 08:55,AP clerk
+INV-0169,Payment scheduled,2026-09-30 09:06,AP clerk
+INV-0178,Approved by finance,2026-09-30 09:24,Finance manager
+INV-0268,Matched to PO and receipt,2026-09-30 09:36,AP clerk
+INV-0295,Payment scheduled,2026-09-30 10:06,AP clerk
+INV-0088,Payment scheduled,2026-09-30 10:07,AP clerk
+INV-0280,Entered in ERP,2026-09-30 10:25,AP clerk
+INV-0109,Approved by finance,2026-09-30 10:28,Finance manager
+INV-0032,Matched to PO and receipt,2026-09-30 10:33,AP clerk
+INV-0167,Matched to PO and receipt,2026-09-30 11:09,AP clerk
+INV-0115,Query sent to buyer,2026-09-30 11:15,AP clerk
+INV-0086,Matched to PO and receipt,2026-09-30 11:18,AP clerk
+INV-0254,Matched to PO and receipt,2026-09-30 11:24,AP clerk
+INV-0217,Saved to shared drive,2026-09-30 11:55,AP clerk
+INV-0039,Query sent to buyer,2026-09-30 12:01,AP clerk
+INV-0046,Payment scheduled,2026-09-30 12:03,AP clerk
+INV-0147,Matched to PO and receipt,2026-09-30 12:06,AP clerk
+INV-0239,Entered in ERP,2026-09-30 12:11,AP clerk
+INV-0226,Entered in ERP,2026-09-30 12:13,AP clerk
+INV-0116,Matched to PO and receipt,2026-09-30 12:15,AP clerk
+INV-0045,Approved by finance,2026-09-30 12:20,Finance manager
+INV-0196,Matched to PO and receipt,2026-09-30 12:51,AP clerk
+INV-0226,Matched to PO and receipt,2026-09-30 13:13,AP clerk
+INV-0190,Matched to PO and receipt,2026-09-30 13:18,AP clerk
+INV-0037,Saved to shared drive,2026-09-30 14:10,AP clerk
+INV-0286,Buyer replied,2026-09-30 14:10,Buyer
+INV-0274,Matched to PO and receipt,2026-09-30 14:32,AP clerk
+INV-0157,Matched to PO and receipt,2026-09-30 14:46,AP clerk
+INV-0239,Matched to PO and receipt,2026-09-30 14:51,AP clerk
+INV-0247,Matched to PO and receipt,2026-09-30 14:59,AP clerk
+INV-0198,Matched to PO and receipt,2026-09-30 15:01,AP clerk
+INV-0186,Matched to PO and receipt,2026-09-30 15:05,AP clerk
+INV-0288,Matched to PO and receipt,2026-09-30 15:37,AP clerk
+INV-0132,Matched to PO and receipt,2026-09-30 16:09,AP clerk
+INV-0095,Payment scheduled,2026-09-30 16:11,AP clerk
+INV-0198,Query sent to buyer,2026-09-30 16:39,AP clerk
+INV-0091,Payment scheduled,2026-09-30 16:55,AP clerk
+INV-0197,Approved by finance,2026-09-30 16:57,Finance manager
+INV-0037,Entered in ERP,2026-09-30 17:09,AP clerk
+INV-0273,Approved by finance,2026-09-30 17:13,Finance manager
+INV-0132,Query sent to buyer,2026-09-30 17:22,AP clerk
+INV-0201,Buyer replied,2026-09-30 17:45,Buyer
+INV-0045,Payment scheduled,2026-10-01 08:04,AP clerk
+INV-0210,Buyer replied,2026-10-01 08:04,Buyer
+INV-0280,Matched to PO and receipt,2026-10-01 08:07,AP clerk
+INV-0286,Matched to PO and receipt,2026-10-01 08:08,AP clerk
+INV-0265,Payment scheduled,2026-10-01 08:12,AP clerk
+INV-0049,Entered in ERP,2026-10-01 08:13,AP clerk
+INV-0219,Payment scheduled,2026-10-01 08:15,AP clerk
+INV-0239,Payment scheduled,2026-10-01 08:23,AP clerk
+INV-0298,Payment scheduled,2026-10-01 08:23,AP clerk
+INV-0217,Entered in ERP,2026-10-01 08:24,AP clerk
+INV-0109,Payment scheduled,2026-10-01 08:27,AP clerk
+INV-0201,Matched to PO and receipt,2026-10-01 08:27,AP clerk
+INV-0037,Matched to PO and receipt,2026-10-01 08:38,AP clerk
+INV-0226,Payment scheduled,2026-10-01 08:41,AP clerk
+INV-0049,Matched to PO and receipt,2026-10-01 09:02,AP clerk
+INV-0022,Payment scheduled,2026-10-01 09:10,AP clerk
+INV-0210,Matched to PO and receipt,2026-10-01 10:09,AP clerk
+INV-0037,Query sent to buyer,2026-10-01 11:51,AP clerk
+INV-0185,Payment scheduled,2026-10-01 13:16,AP clerk
+INV-0217,Matched to PO and receipt,2026-10-01 15:15,AP clerk
+INV-0280,Payment scheduled,2026-10-01 15:28,AP clerk
+INV-0060,Payment scheduled,2026-10-01 16:28,AP clerk
+INV-0021,Payment scheduled,2026-10-01 16:36,AP clerk
+INV-0217,Query sent to buyer,2026-10-01 17:33,AP clerk
+INV-0167,Payment scheduled,2026-10-01 17:43,AP clerk
+INV-0090,Payment scheduled,2026-10-02 08:00,AP clerk
+INV-0254,Payment scheduled,2026-10-02 08:13,AP clerk
+INV-0128,Payment scheduled,2026-10-02 08:25,AP clerk
+INV-0157,Payment scheduled,2026-10-02 08:28,AP clerk
+INV-0190,Approved by finance,2026-10-02 08:41,Finance manager
+INV-0195,Payment scheduled,2026-10-02 08:43,AP clerk
+INV-0178,Payment scheduled,2026-10-02 08:44,AP clerk
+INV-0086,Payment scheduled,2026-10-02 08:51,AP clerk
+INV-0132,Buyer replied,2026-10-02 08:59,Buyer
+INV-0268,Payment scheduled,2026-10-02 11:15,AP clerk
+INV-0032,Payment scheduled,2026-10-02 13:35,AP clerk
+INV-0132,Query sent to buyer,2026-10-02 14:13,AP clerk
+INV-0198,Buyer replied,2026-10-02 14:45,Buyer
+INV-0197,Payment scheduled,2026-10-02 15:13,AP clerk
+INV-0147,Payment scheduled,2026-10-02 17:23,AP clerk
+INV-0039,Buyer replied,2026-10-05 08:02,Buyer
+INV-0037,Buyer replied,2026-10-05 08:06,Buyer
+INV-0049,Payment scheduled,2026-10-05 08:09,AP clerk
+INV-0198,Query sent to buyer,2026-10-05 08:09,AP clerk
+INV-0010,Payment scheduled,2026-10-05 08:19,AP clerk
+INV-0288,Approved by finance,2026-10-05 08:22,Finance manager
+INV-0211,Buyer replied,2026-10-05 08:26,Buyer
+INV-0274,Approved by finance,2026-10-05 08:27,Finance manager
+INV-0286,Approved by finance,2026-10-05 08:29,Finance manager
+INV-0196,Payment scheduled,2026-10-05 08:30,AP clerk
+INV-0097,Buyer replied,2026-10-05 08:32,Buyer
+INV-0201,Approved by finance,2026-10-05 08:32,Finance manager
+INV-0273,Payment scheduled,2026-10-05 08:34,AP clerk
+INV-0116,Payment scheduled,2026-10-05 08:43,AP clerk
+INV-0186,Payment scheduled,2026-10-05 08:44,AP clerk
+INV-0247,Payment scheduled,2026-10-05 08:44,AP clerk
+INV-0132,Buyer replied,2026-10-05 08:49,Buyer
+INV-0210,Payment scheduled,2026-10-05 08:52,AP clerk
+INV-0190,Payment scheduled,2026-10-05 08:56,AP clerk
+INV-0115,Buyer replied,2026-10-05 08:58,Buyer
+INV-0037,Query sent to buyer,2026-10-05 11:12,AP clerk
+INV-0097,Query sent to buyer,2026-10-05 11:22,AP clerk
+INV-0039,Matched to PO and receipt,2026-10-05 14:00,AP clerk
+INV-0211,Matched to PO and receipt,2026-10-05 14:03,AP clerk
+INV-0132,Matched to PO and receipt,2026-10-05 15:31,AP clerk
+INV-0286,Payment scheduled,2026-10-05 15:42,AP clerk
+INV-0115,Matched to PO and receipt,2026-10-05 17:49,AP clerk
+INV-0274,Payment scheduled,2026-10-06 08:22,AP clerk
+INV-0288,Payment scheduled,2026-10-06 08:29,AP clerk
+INV-0217,Buyer replied,2026-10-06 08:55,Buyer
+INV-0039,Payment scheduled,2026-10-06 09:00,AP clerk
+INV-0217,Matched to PO and receipt,2026-10-06 12:09,AP clerk
+INV-0198,Buyer replied,2026-10-06 12:34,Buyer
+INV-0097,Buyer replied,2026-10-06 14:26,Buyer
+INV-0198,Matched to PO and receipt,2026-10-06 15:42,AP clerk
+INV-0097,Matched to PO and receipt,2026-10-06 17:16,AP clerk
+INV-0211,Payment scheduled,2026-10-07 08:08,AP clerk
+INV-0115,Payment scheduled,2026-10-07 08:17,AP clerk
+INV-0132,Payment scheduled,2026-10-07 08:52,AP clerk
+INV-0201,Payment scheduled,2026-10-07 11:32,AP clerk
+INV-0217,Payment scheduled,2026-10-08 08:34,AP clerk
+INV-0037,Buyer replied,2026-10-08 08:46,Buyer
+INV-0097,Payment scheduled,2026-10-08 08:50,AP clerk
+INV-0037,Matched to PO and receipt,2026-10-08 17:08,AP clerk
+INV-0037,Payment scheduled,2026-10-09 08:29,AP clerk
+INV-0198,Approved by finance,2026-10-09 08:56,Finance manager
+INV-0198,Payment scheduled,2026-10-09 13:38,AP clerk

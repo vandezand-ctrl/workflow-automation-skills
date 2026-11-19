@@ -1,7 +1,9 @@
 {
   "name": "workflow-automation",
-  "description": "Map a workflow as it is done today, find the steps worth automating, and design each automation with an approval step, controls and a measured result.",
-  "version": "1.0.0",
-  "author": { "name": "Jesse van de Zand" },
+  "description": "Ten skills for workflow automation: discovery interviews, workflow maps, process log analysis, automation candidates, business cases, specifications, AI build plans, evaluation sets, rollout and impact measurement.",
+  "version": "2.0.0",
+  "author": {
+    "name": "Jesse van de Zand"
+  },
   "license": "MIT"
 }
